@@ -127,7 +127,7 @@ $head = str_replace($old_kern_table, $new_kern_table, $head);
 $head = preg_replace('!CreationTime: [0-9]+!', "CreationTime: $create_time", $head);
 $head = preg_replace('!ModificationTime: [0-9]+!', "ModificationTime: $modify_time", $head);
 $head = preg_replace('!Version: [0-9]{8}!', "Version: $version", $head);
-$head = preg_replace('!LangName: 1033 "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)" "Version [0-9]{8}!', 'LangName: 1033 "$1" "$2" "$3" "$4" "$5" "Version ' . $version . '"', $head);
+$head = preg_replace('!LangName: 1033 "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)" "Version [0-9]{8}"!', 'LangName: 1033 "$1" "$2" "$3" "$4" "$5" "Version ' . $version . '"', $head);
 $head = preg_replace('!WinInfo: [0-9]+ [0-9]+ [0-9]+!', 'WinInfo: 64 16 4', $head);
 
 print $head;
