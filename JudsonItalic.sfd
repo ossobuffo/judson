@@ -19,7 +19,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1278450264
-ModificationTime: 1378480092
+ModificationTime: 1378493144
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -65,9 +65,7 @@ Lookup: 1 0 0 "'ss01' Centered Ogonek"  {"'ss01' Centered Ogonek subtable"  } ['
 Lookup: 1 0 0 "'ss05' Binocular g"  {"'ss05' Binocular g subtable"  } ['ss05' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss04' B-hook becomes B-topbar"  {"'ss04' B-hook becomes B-topbar subtable"  } ['ss04' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss03' Long-stroke Barred O"  {"'ss03' Long-stroke Barred O subtable"  } ['ss03' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "'abvm' Above Base Mark lookup 1"  {"'abvm' Above Base Mark lookup 1-1"  } ['abvm' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 2"  {"'mark' Mark Positioning lookup 2-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "'blwm' Below Base Mark lookup 3"  {"'blwm' Below Base Mark lookup 3-1"  } ['blwm' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 4"  {"'mkmk' Mark to Mark lookup 4-1"  } ['mkmk' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -230,15 +228,15 @@ SCANTYPE
 EndTTInstrs
 LangName: 1033 "" "" "" "" "" "Version 20130808" 
 GaspTable: 1 65535 3 0
-OtfFeatName: 'ss09' 1033 "D with stroke through bowl" 
-OtfFeatName: 'ss08' 1033 "Z with dot-below becomes Z with top-hook" 
-OtfFeatName: 'ss07' 1033 "Reversed-Sigma Ezh" 
-OtfFeatName: 'ss06' 1033 "T with right hook" 
-OtfFeatName: 'ss05' 1033 "Binocular g" 
-OtfFeatName: 'ss04' 1033 "B-hook becomes B-topbar" 
-OtfFeatName: 'ss03' 1033 "Long Stroke on Barred O" 
-OtfFeatName: 'ss02' 1033 "Left Hook on Hooked d" 
 OtfFeatName: 'ss01' 1033 "Centered Ogoneks" 
+OtfFeatName: 'ss02' 1033 "Left Hook on Hooked d" 
+OtfFeatName: 'ss03' 1033 "Long Stroke on Barred O" 
+OtfFeatName: 'ss04' 1033 "B-hook becomes B-topbar" 
+OtfFeatName: 'ss05' 1033 "Binocular g" 
+OtfFeatName: 'ss06' 1033 "T with right hook" 
+OtfFeatName: 'ss07' 1033 "Reversed-Sigma Ezh" 
+OtfFeatName: 'ss08' 1033 "Z with dot-below becomes Z with top-hook" 
+OtfFeatName: 'ss09' 1033 "D with stroke through bowl" 
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -265,7 +263,7 @@ Grid
  -776.5 1275 l 1
 EndSplineSet
 TeXData: 1 0 0 251392 125696 83797 461312 -1048576 83797 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "mktop"  "'mkmk' Mark to Mark lookup 4-1" "cedilla"  "'blwm' Below Base Mark lookup 3-1" "ogonek"  "'blwm' Below Base Mark lookup 3-1" "below"  "'blwm' Below Base Mark lookup 3-1" "mid"  "'mark' Mark Positioning lookup 2-1" "top"  "'abvm' Above Base Mark lookup 1-1" "horn"  "'abvm' Above Base Mark lookup 1-1" 
+AnchorClass2: "ogonek"  "'mark' Mark Positioning lookup 2-1" "below"  "'mark' Mark Positioning lookup 2-1" "cedilla"  "'mark' Mark Positioning lookup 2-1" "top"  "'mark' Mark Positioning lookup 2-1" "mktop"  "'mkmk' Mark to Mark lookup 4-1" "mid"  "'mark' Mark Positioning lookup 2-1" 
 BeginChars: 65537 985
 
 StartChar: .notdef
@@ -2174,7 +2172,6 @@ AnchorPoint: "mid" 771 602 basechar 0
 AnchorPoint: "below" 659 0 basechar 0
 AnchorPoint: "cedilla" 659 0 basechar 0
 AnchorPoint: "ogonek" 719 0 basechar 0
-AnchorPoint: "horn" 1177 901 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -3757,7 +3754,6 @@ AnchorPoint: "ogonek" 573 0 basechar 0
 AnchorPoint: "cedilla" 573 0 basechar 0
 AnchorPoint: "below" 573 0 basechar 0
 AnchorPoint: "mid" 636 471 basechar 0
-AnchorPoint: "horn" 984 641 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -4062,7 +4058,6 @@ AnchorPoint: "cedilla" 539 0 basechar 0
 AnchorPoint: "below" 563 0 basechar 0
 AnchorPoint: "ogonek" 795 0 basechar 0
 AnchorPoint: "mid" 637 504 basechar 0
-AnchorPoint: "horn" 1051 641 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -8453,7 +8448,6 @@ Width: 1116
 Flags: W
 HStem: -20 61<480.097 712.4> 858 64<551.945 800.916> 1055 109<814.703 1007.38> 1176 108<510.52 702.893>
 VStem: 149 198<166.438 593.25> 432 39<1055 1114.16> 921 199<313.118 751.379> 1048 39<1225.41 1284>
-AnchorPoint: "horn" 984 641 basechar 0
 AnchorPoint: "mid" 636 471 basechar 0
 AnchorPoint: "below" 573 0 basechar 0
 AnchorPoint: "cedilla" 573 0 basechar 0
@@ -8507,7 +8501,6 @@ Width: 1116
 Flags: W
 HStem: -20 61<480.097 712.4> 858 64<551.945 800.916> 1055 201<491.409 627.265 868.409 1004.27>
 VStem: 149 198<166.438 593.25> 464 204<1089.04 1227.32> 841 204<1089.04 1227.32> 921 199<313.118 751.379>
-AnchorPoint: "horn" 984 641 basechar 0
 AnchorPoint: "mid" 636 471 basechar 0
 AnchorPoint: "below" 573 0 basechar 0
 AnchorPoint: "cedilla" 573 0 basechar 0
@@ -8776,7 +8769,6 @@ Width: 1126
 Flags: W
 HStem: -20 69<431.109 683.667 884 1094.65> 858 43<186 287.307> 1055 201<484.409 620.265 861.409 997.265>
 VStem: 203 182<83.7236 337.112> 457 204<1089.04 1227.32> 799 178<112.375 254.944> 834 204<1089.04 1227.32>
-AnchorPoint: "horn" 1051 641 basechar 0
 AnchorPoint: "mid" 637 504 basechar 0
 AnchorPoint: "ogonek" 795 0 basechar 0
 AnchorPoint: "below" 563 0 basechar 0
@@ -9950,11 +9942,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-680 1006 m 1,0,-1
- 692 1075 l 1,1,-1
- 1233 1075 l 1,2,-1
- 1221 1006 l 1,3,-1
- 680 1006 l 1,0,-1
+680 1006 m 1
+ 692 1075 l 1
+ 1233 1075 l 1
+ 1221 1006 l 1
+ 680 1006 l 1
 EndSplineSet
 Refer: 69 100 N 1 0 0 1 0 0 2
 EndChar
@@ -10371,20 +10363,20 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-842 -336 m 1,0,1
- 779 -410 779 -410 660 -410 c 0,2,3
- 603 -410 603 -410 554 -381 c 0,4,5
- 505 -352 505 -352 504 -291 c 0,6,7
- 504 -163 504 -163 604 -66 c 0,8,9
- 682 9 682 9 776 57 c 0,10,11
- 870 105 870 105 888 114 c 1,12,-1
- 885 95 l 1,13,14
- 676 -56 676 -56 645 -238 c 0,15,16
- 643 -252 643 -252 643 -274 c 0,17,18
- 643 -297 643 -297 665 -322 c 0,19,20
- 687 -346 687 -346 732 -346 c 0,21,22
- 777 -346 777 -346 827 -315 c 1,23,-1
- 842 -336 l 1,0,1
+842 -336 m 1
+ 779 -410 779 -410 660 -410 c 0
+ 603 -410 603 -410 554 -381 c 0
+ 505 -352 505 -352 504 -291 c 0
+ 504 -163 504 -163 604 -66 c 0
+ 682 9 682 9 776 57 c 0
+ 870 105 870 105 888 114 c 1
+ 885 95 l 1
+ 676 -56 676 -56 645 -238 c 0
+ 643 -252 643 -252 643 -274 c 0
+ 643 -297 643 -297 665 -322 c 0
+ 687 -346 687 -346 732 -346 c 0
+ 777 -346 777 -346 827 -315 c 1
+ 842 -336 l 1
 EndSplineSet
 Refer: 70 101 N 1 0 0 1 0 0 2
 Kerns2: 75 47 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
@@ -11117,11 +11109,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-281 825 m 1,0,-1
- 293 895 l 1,1,-1
- 1334 895 l 1,2,-1
- 1322 825 l 1,3,-1
- 281 825 l 1,0,-1
+281 825 m 1
+ 293 895 l 1
+ 1334 895 l 1
+ 1322 825 l 1
+ 281 825 l 1
 EndSplineSet
 Refer: 41 72 N 1 0 0 1 0 0 2
 EndChar
@@ -11173,11 +11165,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-217 1006 m 1,0,-1
- 229 1076 l 1,1,-1
- 770 1076 l 1,2,-1
- 758 1006 l 1,3,-1
- 217 1006 l 1,0,-1
+217 1006 m 1
+ 229 1076 l 1
+ 770 1076 l 1
+ 758 1006 l 1
+ 217 1006 l 1
 EndSplineSet
 Refer: 73 104 N 1 0 0 1 0 0 2
 EndChar
@@ -14468,7 +14460,6 @@ Width: 1126
 Flags: W
 HStem: -20 69<431.109 683.667 884 1094.65> 858 43<186 287.307> 1055 109<808.703 1001.38> 1176 108<504.52 696.893>
 VStem: 203 182<83.7236 337.112> 426 39<1055 1114.16> 799 178<112.375 254.944> 1042 39<1225.41 1284>
-AnchorPoint: "horn" 1051 641 basechar 0
 AnchorPoint: "mid" 637 504 basechar 0
 AnchorPoint: "ogonek" 795 0 basechar 0
 AnchorPoint: "below" 563 0 basechar 0
@@ -14969,20 +14960,20 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-729 -409 m 0,0,1
- 562 -409 562 -409 562 -275 c 0,2,3
- 562 -229 562 -229 625 -146 c 0,4,5
- 688 -63 688 -63 831 24 c 0,6,7
- 854 39 854 39 888 60 c 0,8,9
- 922 81 922 81 936 91 c 1,10,-1
- 943 74 l 1,11,12
- 876 18 876 18 790 -84 c 0,13,14
- 704 -186 704 -186 704 -262 c 0,15,16
- 704 -298 704 -298 726 -322 c 0,17,18
- 748 -346 748 -346 792 -346 c 0,19,20
- 836 -346 836 -346 888 -315 c 1,21,-1
- 902 -336 l 1,22,23
- 840 -409 840 -409 729 -409 c 0,0,1
+729 -409 m 0
+ 562 -409 562 -409 562 -275 c 0
+ 562 -229 562 -229 625 -146 c 0
+ 688 -63 688 -63 831 24 c 0
+ 854 39 854 39 888 60 c 0
+ 922 81 922 81 936 91 c 1
+ 943 74 l 1
+ 876 18 876 18 790 -84 c 0
+ 704 -186 704 -186 704 -262 c 0
+ 704 -298 704 -298 726 -322 c 0
+ 748 -346 748 -346 792 -346 c 0
+ 836 -346 836 -346 888 -315 c 1
+ 902 -336 l 1
+ 840 -409 840 -409 729 -409 c 0
 EndSplineSet
 Refer: 54 85 N 1 0 0 1 0 0 3
 EndChar
@@ -17069,21 +17060,21 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-1141 684 m 2,0,1
- 1229 684 1229 684 1285.5 723 c 0,2,3
- 1342 762 1342 762 1353 827 c 0,4,5
- 1355 841 1355 841 1335 841 c 1,6,-1
- 1301 837 l 1,7,8
- 1220 837 1220 837 1220 904 c 0,9,10
- 1220 959 1220 959 1256.5 989 c 0,11,12
- 1293 1019 1293 1019 1322 1019 c 0,13,14
- 1395 1019 1395 1019 1427.5 976.5 c 0,15,16
- 1460 934 1460 934 1460 904 c 0,17,18
- 1460 724 1460 724 1296 669 c 0,19,20
- 1215 641 1215 641 1134 641 c 2,21,-1
- 1044 641 l 1,22,-1
- 1051 684 l 1,23,-1
- 1141 684 l 2,0,1
+1141 684 m 2
+ 1229 684 1229 684 1285.5 723 c 0
+ 1342 762 1342 762 1353 827 c 0
+ 1355 841 1355 841 1335 841 c 1
+ 1301 837 l 1
+ 1220 837 1220 837 1220 904 c 0
+ 1220 959 1220 959 1256.5 989 c 0
+ 1293 1019 1293 1019 1322 1019 c 0
+ 1395 1019 1395 1019 1427.5 976.5 c 0
+ 1460 934 1460 934 1460 904 c 0
+ 1460 724 1460 724 1296 669 c 0
+ 1215 641 1215 641 1134 641 c 2
+ 1044 641 l 1
+ 1051 684 l 1
+ 1141 684 l 2
 EndSplineSet
 Refer: 86 117 N 1 0 0 1 0 0 2
 EndChar
@@ -20579,11 +20570,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-287 485 m 1,0,-1
- 1005 485 l 1,1,-1
- 998 416 l 1,2,-1
- 280 416 l 1,3,-1
- 287 485 l 1,0,-1
+287 485 m 1
+ 1005 485 l 1
+ 998 416 l 1
+ 280 416 l 1
+ 287 485 l 1
 594 41 m 0
 EndSplineSet
 Refer: 80 111 N 1 0 0 1 0 0 2
@@ -22168,7 +22159,6 @@ VWidth: 0
 Flags: W
 HStem: 1008 43<-37 74.9688> 1204 182<64.8604 174> 1204 152<48.4072 143.092>
 VStem: 42 240<1212.82 1342.17>
-AnchorPoint: "horn" -44 1008 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -33388,37 +33378,37 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-238 -96 m 1,0,1
- 166 -212 166 -212 162 -229 c 0,2,3
- 158 -246 158 -246 158 -264 c 0,4,5
- 158 -282 158 -282 176 -300 c 0,6,7
- 194 -318 194 -318 210 -318 c 0,8,9
- 226 -318 226 -318 246 -307 c 0,10,11
- 266 -297 266 -297 286 -297 c 0,12,13
- 306 -296 306 -296 319 -312 c 0,14,15
- 332 -328 332 -328 332 -360 c 0,16,17
- 332 -392 332 -392 296 -416 c 0,18,19
- 260 -440 260 -440 208 -440 c 0,20,21
- 156 -440 156 -440 120 -405 c 1,22,23
- 86 -370 86 -370 86 -312 c 0,24,25
- 86 -254 86 -254 107 -208 c 0,26,27
- 128 -162 128 -162 185 -70 c 1,28,-1
- 973 1174 l 1,29,30
- 1044 1290 1044 1290 1048 1307 c 0,31,32
- 1052 1324 1052 1324 1052 1342 c 0,33,34
- 1052 1360 1052 1360 1034 1378 c 0,35,36
- 1016 1396 1016 1396 1000 1396 c 0,37,38
- 984 1396 984 1396 964 1385 c 0,39,40
- 944 1375 944 1375 924 1375 c 0,41,42
- 904 1374 904 1374 892 1390 c 0,43,44
- 880 1406 880 1406 879 1438 c 0,45,46
- 879 1470 879 1470 915 1494 c 0,47,48
- 952 1518 952 1518 1004 1518 c 0,49,50
- 1056 1518 1056 1518 1090 1483 c 0,51,52
- 1124 1448 1124 1448 1124 1390 c 0,53,54
- 1124 1332 1124 1332 1104 1286 c 0,55,56
- 1084 1240 1084 1240 1026 1148 c 1,57,-1
- 238 -96 l 1,0,1
+238 -96 m 1
+ 166 -212 166 -212 162 -229 c 0
+ 158 -246 158 -246 158 -264 c 0
+ 158 -282 158 -282 176 -300 c 0
+ 194 -318 194 -318 210 -318 c 0
+ 226 -318 226 -318 246 -307 c 0
+ 266 -297 266 -297 286 -297 c 0
+ 306 -296 306 -296 319 -312 c 0
+ 332 -328 332 -328 332 -360 c 0
+ 332 -392 332 -392 296 -416 c 0
+ 260 -440 260 -440 208 -440 c 0
+ 156 -440 156 -440 120 -405 c 1
+ 86 -370 86 -370 86 -312 c 0
+ 86 -254 86 -254 107 -208 c 0
+ 128 -162 128 -162 185 -70 c 1
+ 973 1174 l 1
+ 1044 1290 1044 1290 1048 1307 c 0
+ 1052 1324 1052 1324 1052 1342 c 0
+ 1052 1360 1052 1360 1034 1378 c 0
+ 1016 1396 1016 1396 1000 1396 c 0
+ 984 1396 984 1396 964 1385 c 0
+ 944 1375 944 1375 924 1375 c 0
+ 904 1374 904 1374 892 1390 c 0
+ 880 1406 880 1406 879 1438 c 0
+ 879 1470 879 1470 915 1494 c 0
+ 952 1518 952 1518 1004 1518 c 0
+ 1056 1518 1056 1518 1090 1483 c 0
+ 1124 1448 1124 1448 1124 1390 c 0
+ 1124 1332 1124 1332 1104 1286 c 0
+ 1084 1240 1084 1240 1026 1148 c 1
+ 238 -96 l 1
 EndSplineSet
 Refer: 51 82 N 1 0 0 1 0 0 2
 EndChar
@@ -33536,37 +33526,37 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-190 -96 m 1,0,1
- 118 -212 118 -212 112 -242 c 0,2,3
- 112 -246 112 -246 112 -255 c 0,4,5
- 112 -281 112 -281 129 -299 c 0,6,7
- 148 -317 148 -317 172 -317 c 0,8,9
- 180 -317 180 -317 199 -307 c 0,10,11
- 218 -297 218 -297 236 -297 c 0,12,13
- 258 -297 258 -297 272 -313 c 0,14,15
- 284 -329 284 -329 284 -354 c 0,16,17
- 284 -392 284 -392 248 -416 c 0,18,19
- 212 -440 212 -440 170 -440 c 0,20,21
- 108 -440 108 -440 73 -405 c 0,22,23
- 38 -370 38 -370 38 -310 c 0,24,25
- 38 -253 38 -253 60 -207 c 0,26,27
- 82 -161 82 -161 138 -70 c 2,28,-1
- 926 1174 l 1,29,30
- 998 1290 998 1290 1004 1320 c 0,31,32
- 1004 1324 1004 1324 1004 1333 c 0,33,34
- 1004 1359 1004 1359 987 1377 c 0,35,36
- 968 1395 968 1395 944 1395 c 0,37,38
- 936 1395 936 1395 917 1385 c 0,39,40
- 898 1375 898 1375 880 1375 c 0,41,42
- 858 1375 858 1375 844 1391 c 0,43,44
- 832 1407 832 1407 832 1432 c 0,45,46
- 832 1470 832 1470 868 1494 c 0,47,48
- 904 1518 904 1518 946 1518 c 0,49,50
- 1008 1518 1008 1518 1043 1483 c 0,51,52
- 1078 1448 1078 1448 1078 1388 c 0,53,54
- 1078 1331 1078 1331 1056 1285 c 0,55,56
- 1034 1239 1034 1239 978 1148 c 2,57,-1
- 190 -96 l 1,0,1
+190 -96 m 1
+ 118 -212 118 -212 112 -242 c 0
+ 112 -246 112 -246 112 -255 c 0
+ 112 -281 112 -281 129 -299 c 0
+ 148 -317 148 -317 172 -317 c 0
+ 180 -317 180 -317 199 -307 c 0
+ 218 -297 218 -297 236 -297 c 0
+ 258 -297 258 -297 272 -313 c 0
+ 284 -329 284 -329 284 -354 c 0
+ 284 -392 284 -392 248 -416 c 0
+ 212 -440 212 -440 170 -440 c 0
+ 108 -440 108 -440 73 -405 c 0
+ 38 -370 38 -370 38 -310 c 0
+ 38 -253 38 -253 60 -207 c 0
+ 82 -161 82 -161 138 -70 c 2
+ 926 1174 l 1
+ 998 1290 998 1290 1004 1320 c 0
+ 1004 1324 1004 1324 1004 1333 c 0
+ 1004 1359 1004 1359 987 1377 c 0
+ 968 1395 968 1395 944 1395 c 0
+ 936 1395 936 1395 917 1385 c 0
+ 898 1375 898 1375 880 1375 c 0
+ 858 1375 858 1375 844 1391 c 0
+ 832 1407 832 1407 832 1432 c 0
+ 832 1470 832 1470 868 1494 c 0
+ 904 1518 904 1518 946 1518 c 0
+ 1008 1518 1008 1518 1043 1483 c 0
+ 1078 1448 1078 1448 1078 1388 c 0
+ 1078 1331 1078 1331 1056 1285 c 0
+ 1034 1239 1034 1239 978 1148 c 2
+ 190 -96 l 1
 EndSplineSet
 Refer: 55 86 N 1 0 0 1 40 0 2
 EndChar
@@ -35027,11 +35017,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-130 629 m 1,0,-1
- 1393 629 l 1,1,-1
- 1382 560 l 1,2,-1
- 119 560 l 1,3,-1
- 130 629 l 1,0,-1
+130 629 m 1
+ 1393 629 l 1
+ 1382 560 l 1
+ 119 560 l 1
+ 130 629 l 1
 EndSplineSet
 Refer: 48 79 N 1 0 0 1 0 0 2
 EndChar
@@ -35050,11 +35040,11 @@ AnchorPoint: "top" 753 1055 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1194 430 m 1,0,-1
- 97 430 l 1,1,-1
- 109 499 l 1,2,-1
- 1206 499 l 1,3,-1
- 1194 430 l 1,0,-1
+1194 430 m 1
+ 97 430 l 1
+ 109 499 l 1
+ 1206 499 l 1
+ 1194 430 l 1
 EndSplineSet
 Refer: 80 111 N 1 0 0 1 0 0 2
 EndChar
@@ -36376,10 +36366,7 @@ EndChar
 
 StartChar: atildegrave
 Encoding: 57620 57620 766
-Width: 989
-Flags: W
-HStem: -16 61<326.209 568.45 768 969.64> 848 74<403.66 696.557> 1055 109<707.703 900.384> 1176 108<403.52 595.893> 1305 332
-VStem: 97 190<70.2369 298.642> 236 177<609.039 727.309> 325 39<1055 1114.16> 411 313 674 178<97.002 413.062> 745 185<433.293 808.487> 941 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -36449,11 +36436,6 @@ SplineSet
  980.868 1284 l 1
  960.341 1161.33 915.069 1088 845.053 1064 c 0
 EndSplineSet
-Fore
-Refer: 448 768 S 1 0 0 1 1020 281 2
-Refer: 451 771 S 1 0 0 1 979 31 2
-Refer: 66 97 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" atilde gravecomb
 EndChar
 
@@ -36514,10 +36496,7 @@ EndChar
 
 StartChar: atildeacute
 Encoding: 57622 57622 768
-Width: 989
-Flags: W
-HStem: -16 61<326.209 568.45 768 969.64> 848 74<403.66 696.557> 1055 109<707.703 900.384> 1176 108<403.52 595.893> 1305 332
-VStem: 97 190<70.2369 298.642> 236 177<609.039 727.309> 325 39<1055 1114.16> 645 425 674 178<97.002 413.062> 745 185<433.293 808.487> 941 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -36587,11 +36566,6 @@ SplineSet
  980.868 1284 l 1
  960.341 1161.33 915.069 1088 845.053 1064 c 0
 EndSplineSet
-Fore
-Refer: 449 769 S 1 0 0 1 1021 281 2
-Refer: 451 771 N 1 0 0 1 979 31 2
-Refer: 66 97 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" atilde acutecomb
 EndChar
 
@@ -36655,10 +36629,7 @@ EndChar
 
 StartChar: atildecaron
 Encoding: 57624 57624 770
-Width: 989
-Flags: W
-HStem: -16 61<326.209 568.45 768 969.64> 848 74<403.66 696.557> 1055 109<707.703 900.384> 1176 108<403.52 595.893> 1305 332
-VStem: 97 190<70.2369 298.642> 236 177<609.039 727.309> 325 39<1055 1114.16> 487 488 674 178<97.002 413.062> 745 185<433.293 808.487> 941 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -36731,11 +36702,6 @@ SplineSet
  980.868 1284 l 1
  960.341 1161.33 915.069 1088 845.053 1064 c 0
 EndSplineSet
-Fore
-Refer: 460 780 S 1 0 0 1 1022 281 2
-Refer: 451 771 S 1 0 0 1 979 31 2
-Refer: 66 97 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" atilde caroncomb
 EndChar
 
@@ -36799,10 +36765,7 @@ EndChar
 
 StartChar: atildecircumflex
 Encoding: 57626 57626 772
-Width: 989
-Flags: W
-HStem: -16 61<326.209 568.45 768 969.64> 848 74<403.66 696.557> 1005 109<700.703 893.384> 1126 108<396.52 588.893> 1301 336
-VStem: 97 190<70.2369 298.642> 236 177<609.039 727.309> 318 39<1005 1064.16> 370 607 674 178<97.002 413.062> 745 185<433.293 808.487> 934 39<1175.41 1234>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -36875,11 +36838,6 @@ SplineSet
  676.939 1637 l 1
  779.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 S 1 0 0 1 1022 281 2
-Refer: 451 771 S 1 0 0 1 972 -19 2
-Refer: 66 97 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" atilde circumflexcomb
 EndChar
 
@@ -36947,10 +36905,7 @@ EndChar
 
 StartChar: adieresisgrave
 Encoding: 57628 57628 774
-Width: 989
-Flags: W
-HStem: -16 61<326.209 568.45 768 969.64> 848 74<403.66 696.557> 1055 201<384.409 520.265 761.409 897.265> 1305 332
-VStem: 97 190<70.2369 298.642> 236 177<609.039 727.309> 357 204<1089.04 1227.32> 411 313 674 178<97.002 413.062> 734 204<1089.04 1227.32> 745 185<433.293 808.487>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -37023,11 +36978,6 @@ SplineSet
  412.939 1637 l 1
  629.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 448 768 S 1 0 0 1 1020 281 2
-Refer: 456 776 S 1 0 0 1 979 31 2
-Refer: 66 97 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" adieresis gravecomb
 EndChar
 
@@ -37095,10 +37045,7 @@ EndChar
 
 StartChar: adieresisacute
 Encoding: 57630 57630 776
-Width: 989
-Flags: W
-HStem: -16 61<326.209 568.45 768 969.64> 848 74<403.66 696.557> 1055 201<384.409 520.265 761.409 897.265> 1305 332
-VStem: 97 190<70.2369 298.642> 236 177<609.039 727.309> 357 204<1089.04 1227.32> 645 425 674 178<97.002 413.062> 734 204<1089.04 1227.32> 745 185<433.293 808.487>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -37171,11 +37118,6 @@ SplineSet
  646.382 1305 l 1
  852.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 449 769 S 1 0 0 1 1021 281 2
-Refer: 456 776 S 1 0 0 1 979 31 2
-Refer: 66 97 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" adieresis acutecomb
 EndChar
 
@@ -37246,10 +37188,7 @@ EndChar
 
 StartChar: adieresiscaron
 Encoding: 57632 57632 778
-Width: 989
-Flags: W
-HStem: -16 61<326.209 568.45 768 969.64> 848 74<403.66 696.557> 1055 201<384.409 520.265 761.409 897.265> 1305 332
-VStem: 97 190<70.2369 298.642> 236 177<609.039 727.309> 357 204<1089.04 1227.32> 487 488 674 178<97.002 413.062> 734 204<1089.04 1227.32> 745 185<433.293 808.487>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -37325,11 +37264,6 @@ SplineSet
  726.382 1305 l 1
  623.382 1305 l 1
 EndSplineSet
-Fore
-Refer: 460 780 S 1 0 0 1 1022 281 2
-Refer: 456 776 S 1 0 0 1 979 31 2
-Refer: 66 97 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" adieresis caroncomb
 EndChar
 
@@ -37400,10 +37334,7 @@ EndChar
 
 StartChar: adieresiscircumflex
 Encoding: 57634 57634 780
-Width: 989
-Flags: W
-HStem: -16 61<326.209 568.45 768 969.64> 848 74<403.66 696.557> 1055 201<384.409 520.265 761.409 897.265> 1301 336
-VStem: 97 190<70.2369 298.642> 236 177<609.039 727.309> 357 204<1089.04 1227.32> 370 607 674 178<97.002 413.062> 734 204<1089.04 1227.32> 745 185<433.293 808.487>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -37479,11 +37410,6 @@ SplineSet
  676.939 1637 l 1
  779.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 S 1 0 0 1 1022 281 2
-Refer: 456 776 S 1 0 0 1 979 31 2
-Refer: 66 97 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" adieresis circumflexcomb
 EndChar
 
@@ -37545,10 +37471,7 @@ EndChar
 
 StartChar: etildegrave
 Encoding: 57636 57636 782
-Width: 1009
-Flags: W
-HStem: -20 77<486.065 759.134> 860 62<556.391 762.418> 1055 109<752.703 945.384> 1176 108<448.52 640.893> 1305 332
-VStem: 149 203<203.484 432> 370 39<1055 1114.16> 456 313 832 202<568.622 778.142> 986 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -37598,11 +37521,6 @@ SplineSet
  1024.87 1284 l 1
  1004.34 1161.33 959.069 1088 889.053 1064 c 0
 EndSplineSet
-Fore
-Refer: 448 768 S 1 0 0 1 1065 281 2
-Refer: 70 101 N 1 0 0 1 0 0 3
-Refer: 451 771 S 1 0 0 1 1024 31 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" etilde gravecomb
 EndChar
 
@@ -37664,10 +37582,7 @@ EndChar
 
 StartChar: etildeacute
 Encoding: 57638 57638 784
-Width: 1009
-Flags: W
-HStem: -20 77<486.065 759.134> 860 62<556.391 762.418> 1055 109<752.703 945.384> 1176 108<448.52 640.893>
-VStem: 149 203<203.484 432> 370 39<1055 1114.16> 832 202<568.622 778.142> 986 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -37717,11 +37632,6 @@ SplineSet
  1024.87 1284 l 1
  1004.34 1161.33 959.069 1088 889.053 1064 c 0
 EndSplineSet
-Fore
-Refer: 449 769 S 1 0 0 1 1066 281 2
-Refer: 70 101 N 1 0 0 1 0 0 3
-Refer: 451 771 S 1 0 0 1 1024 31 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" etilde acutecomb
 EndChar
 
@@ -37788,10 +37698,7 @@ EndChar
 
 StartChar: etildecaron
 Encoding: 57640 57640 786
-Width: 1009
-Flags: W
-HStem: -20 77<486.065 759.134> 860 62<556.391 762.418> 1055 109<752.703 945.384> 1176 108<448.52 640.893> 1305 332
-VStem: 149 203<203.484 432> 370 39<1055 1114.16> 531 488 832 202<568.622 778.142> 986 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -37844,11 +37751,6 @@ SplineSet
  1024.87 1284 l 1
  1004.34 1161.33 959.069 1088 889.053 1064 c 0
 EndSplineSet
-Fore
-Refer: 460 780 S 1 0 0 1 1066 281 2
-Refer: 70 101 N 1 0 0 1 0 0 3
-Refer: 451 771 S 1 0 0 1 1024 31 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" etilde caroncomb
 EndChar
 
@@ -37915,10 +37817,7 @@ EndChar
 
 StartChar: etildecircumflex
 Encoding: 57642 57642 788
-Width: 1009
-Flags: W
-HStem: -20 77<486.065 759.134> 860 62<556.391 762.418> 1005 109<744.703 937.384> 1126 108<440.52 632.893> 1301 336
-VStem: 149 203<203.484 432> 362 39<1005 1064.16> 415 607 832 202<568.622 778.142> 978 39<1175.41 1234>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -37971,11 +37870,6 @@ SplineSet
  721.939 1637 l 1
  824.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 S 1 0 0 1 1067 281 2
-Refer: 70 101 N 1 0 0 1 0 0 3
-Refer: 451 771 S 1 0 0 1 1016 -19 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" etilde circumflexcomb
 EndChar
 
@@ -38044,10 +37938,7 @@ EndChar
 
 StartChar: edieresisgrave
 Encoding: 57644 57644 790
-Width: 1009
-Flags: W
-HStem: -20 77<486.065 759.134> 860 62<556.391 762.418> 1055 201<429.409 565.265 806.409 942.265> 1305 332
-VStem: 149 203<203.484 432> 402 204<1089.04 1227.32> 456 313 779 204<1089.04 1227.32> 832 202<568.622 778.142>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -38100,11 +37991,6 @@ SplineSet
  457.939 1637 l 1
  674.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 448 768 S 1 0 0 1 1065 281 2
-Refer: 70 101 N 1 0 0 1 0 0 3
-Refer: 456 776 S 1 0 0 1 1024 31 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" edieresis gravecomb
 EndChar
 
@@ -38173,10 +38059,7 @@ EndChar
 
 StartChar: edieresisacute
 Encoding: 57646 57646 792
-Width: 1009
-Flags: W
-HStem: -20 77<486.065 759.134> 860 62<556.391 762.418> 1055 201<429.409 565.265 806.409 942.265> 1305 332
-VStem: 149 203<203.484 432> 402 204<1089.04 1227.32> 690 425 779 204<1089.04 1227.32> 832 202<568.622 778.142>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -38229,11 +38112,6 @@ SplineSet
  691.382 1305 l 1
  897.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 449 769 S 1 0 0 1 1066 281 2
-Refer: 70 101 N 1 0 0 1 0 0 3
-Refer: 456 776 S 1 0 0 1 1024 31 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" edieresis acutecomb
 EndChar
 
@@ -38305,10 +38183,7 @@ EndChar
 
 StartChar: edieresiscaron
 Encoding: 57648 57648 794
-Width: 1009
-Flags: W
-HStem: -20 77<486.065 759.134> 860 62<556.391 762.418> 1055 201<429.409 565.265 806.409 942.265> 1305 332
-VStem: 149 203<203.484 432> 402 204<1089.04 1227.32> 531 488 779 204<1089.04 1227.32> 832 202<568.622 778.142>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -38364,11 +38239,6 @@ SplineSet
  771.382 1305 l 1
  668.382 1305 l 1
 EndSplineSet
-Fore
-Refer: 460 780 S 1 0 0 1 1066 281 2
-Refer: 70 101 N 1 0 0 1 0 0 3
-Refer: 456 776 S 1 0 0 1 1024 31 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" edieresis caroncomb
 EndChar
 
@@ -38440,10 +38310,7 @@ EndChar
 
 StartChar: edieresiscircumflex
 Encoding: 57650 57650 796
-Width: 1009
-Flags: W
-HStem: -20 77<486.065 759.134> 860 62<556.391 762.418> 1055 201<429.409 565.265 806.409 942.265> 1301 336
-VStem: 149 203<203.484 432> 402 204<1089.04 1227.32> 415 607 779 204<1089.04 1227.32> 832 202<568.622 778.142>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -38499,11 +38366,6 @@ SplineSet
  721.939 1637 l 1
  824.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 S 1 0 0 1 1067 281 2
-Refer: 70 101 N 1 0 0 1 0 0 3
-Refer: 456 776 S 1 0 0 1 1024 31 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" edieresis circumflexcomb
 EndChar
 
@@ -38574,10 +38436,7 @@ EndChar
 
 StartChar: edieresismacron
 Encoding: 57652 57652 798
-Width: 1009
-Flags: W
-HStem: -20 77<486.065 759.134> 860 62<556.391 762.418> 1055 201<429.409 565.265 806.409 942.265> 1420 90<481 1007>
-VStem: 149 203<203.484 432> 402 204<1089.04 1227.32> 466 556 779 204<1089.04 1227.32> 832 202<568.622 778.142>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -38630,11 +38489,6 @@ SplineSet
  460.214 1055 438.359 1064.83 421.983 1084.5 c 128
  405.608 1104.17 399.707 1127.67 404.28 1155 c 128
 EndSplineSet
-Fore
-Refer: 452 772 N 1 0 0 1 1093 367 2
-Refer: 70 101 N 1 0 0 1 0 0 3
-Refer: 456 776 N 1 0 0 1 1024 31 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" edieresis macroncomb
 EndChar
 
@@ -38686,10 +38540,7 @@ EndChar
 
 StartChar: itildegrave
 Encoding: 57654 57654 800
-Width: 548
-Flags: W
-HStem: 0 21<193 380.341> 786 48<203 304.213> 902 20<507.5 527.659> 1055 109<542.703 735.384> 1176 108<238.52 430.893> 1305 332
-VStem: 160 39<1055 1114.16> 193 338 247 313 776 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -38726,11 +38577,6 @@ SplineSet
  246.939 1637 l 1
  463.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 448 768 S 1 0 0 1 856 281 2
-Refer: 451 771 S 1 0 0 1 814 31 2
-Refer: 241 305 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" itilde gravecomb
 EndChar
 
@@ -38782,10 +38628,7 @@ EndChar
 
 StartChar: itildeacute
 Encoding: 57656 57656 802
-Width: 548
-Flags: W
-HStem: 0 21<193 380.341> 786 48<203 304.213> 902 20<507.5 527.659> 1055 109<542.703 735.384> 1176 108<238.52 430.893> 1305 332
-VStem: 160 39<1055 1114.16> 193 338 480 425 776 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -38822,11 +38665,6 @@ SplineSet
  480.382 1305 l 1
  686.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 449 769 S 1 0 0 1 856 281 2
-Refer: 451 771 S 1 0 0 1 814 31 2
-Refer: 241 305 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" itilde acutecomb
 EndChar
 
@@ -38881,10 +38719,7 @@ EndChar
 
 StartChar: itildecaron
 Encoding: 57658 57658 804
-Width: 548
-Flags: W
-HStem: 0 21<193 380.341> 786 48<203 304.213> 902 20<507.5 527.659> 1055 109<542.703 735.384> 1176 108<238.52 430.893> 1305 332
-VStem: 160 39<1055 1114.16> 193 338 321 488 776 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -38924,11 +38759,6 @@ SplineSet
  814.868 1284 l 1
  794.341 1161.33 749.069 1088 679.053 1064 c 0
 EndSplineSet
-Fore
-Refer: 460 780 S 1 0 0 1 856 281 2
-Refer: 451 771 S 1 0 0 1 814 31 2
-Refer: 241 305 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" itilde caroncomb
 EndChar
 
@@ -38983,10 +38813,7 @@ EndChar
 
 StartChar: itildecircumflex
 Encoding: 57660 57660 806
-Width: 548
-Flags: W
-HStem: 0 21<193 380.341> 786 48<203 304.213> 902 20<507.5 527.659> 1005 109<534.703 727.384> 1126 108<230.52 422.893> 1301 336
-VStem: 152 39<1005 1064.16> 193 338 204 607 768 39<1175.41 1234>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -39026,11 +38853,6 @@ SplineSet
  510.939 1637 l 1
  613.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 S 1 0 0 1 856 281 2
-Refer: 451 771 S 1 0 0 1 806 -19 2
-Refer: 241 305 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" itilde circumflexcomb
 EndChar
 
@@ -39089,10 +38911,7 @@ EndChar
 
 StartChar: idieresisgrave
 Encoding: 57662 57662 808
-Width: 548
-Flags: W
-HStem: 0 21<193 380.341> 786 48<203 304.213> 902 20<507.5 527.659> 1055 201<218.409 354.265 595.409 731.265> 1305 332
-VStem: 191 204<1089.04 1227.32> 193 338 247 313 568 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -39132,11 +38951,6 @@ SplineSet
  249.214 1055 227.359 1064.83 210.983 1084.5 c 128
  194.608 1104.17 188.707 1127.67 193.28 1155 c 128
 EndSplineSet
-Fore
-Refer: 448 768 S 1 0 0 1 856 281 2
-Refer: 456 776 S 1 0 0 1 813 31 2
-Refer: 241 305 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" idieresis gravecomb
 EndChar
 
@@ -39188,10 +39002,7 @@ EndChar
 
 StartChar: itildemacron
 Encoding: 57664 57664 810
-Width: 548
-Flags: W
-HStem: 0 21<193 380.341> 786 48<203 304.213> 902 20<507.5 527.659> 1055 109<542.703 735.384> 1176 108<238.52 430.893> 1397 90<256 782>
-VStem: 160 39<1055 1114.16> 193 338 241 556 776 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -39228,11 +39039,6 @@ SplineSet
  240.777 1397 l 1
  255.839 1487 l 1
 EndSplineSet
-Fore
-Refer: 452 772 S 1 0 0 1 868 344 2
-Refer: 451 771 S 1 0 0 1 814 31 2
-Refer: 241 305 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" itilde macroncomb
 EndChar
 
@@ -39294,10 +39100,7 @@ EndChar
 
 StartChar: idieresiscaron
 Encoding: 57666 57666 812
-Width: 548
-Flags: W
-HStem: 0 21<193 380.341> 786 48<203 304.213> 902 20<507.5 527.659> 1055 201<218.409 354.265 595.409 731.265> 1305 332
-VStem: 191 204<1089.04 1227.32> 193 338 321 488 568 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -39340,11 +39143,6 @@ SplineSet
  249.214 1055 227.359 1064.83 210.983 1084.5 c 128
  194.608 1104.17 188.707 1127.67 193.28 1155 c 128
 EndSplineSet
-Fore
-Refer: 460 780 S 1 0 0 1 856 281 2
-Refer: 456 776 S 1 0 0 1 813 31 2
-Refer: 241 305 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" idieresis caroncomb
 EndChar
 
@@ -39406,10 +39204,7 @@ EndChar
 
 StartChar: idieresiscircumflex
 Encoding: 57668 57668 814
-Width: 548
-Flags: W
-HStem: 0 21<193 380.341> 786 48<203 304.213> 902 20<507.5 527.659> 1055 201<218.409 354.265 595.409 731.265> 1301 336
-VStem: 191 204<1089.04 1227.32> 193 338 204 607 568 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -39452,11 +39247,6 @@ SplineSet
  249.214 1055 227.359 1064.83 210.983 1084.5 c 128
  194.608 1104.17 188.707 1127.67 193.28 1155 c 128
 EndSplineSet
-Fore
-Refer: 450 770 S 1 0 0 1 856 281 2
-Refer: 456 776 S 1 0 0 1 813 31 2
-Refer: 241 305 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" idieresis circumflexcomb
 EndChar
 
@@ -39524,10 +39314,7 @@ EndChar
 
 StartChar: otildegrave
 Encoding: 57670 57670 816
-Width: 1116
-Flags: W
-HStem: -20 61<480.097 712.4> 858 64<551.945 800.916> 1055 109<815.703 1008.38> 1176 108<511.52 703.893> 1305 332
-VStem: 149 198<166.438 593.25> 433 39<1055 1114.16> 519 313 921 199<313.118 751.379> 1049 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -39569,11 +39356,6 @@ SplineSet
  1086.87 1284 l 1
  1066.34 1161.33 1021.07 1088 951.053 1064 c 0
 EndSplineSet
-Fore
-Refer: 448 768 S 1 0 0 1 1128 281 2
-Refer: 451 771 S 1 0 0 1 1087 31 2
-Refer: 80 111 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" otilde gravecomb
 EndChar
 
@@ -39644,10 +39426,7 @@ EndChar
 
 StartChar: otildecaron
 Encoding: 57674 57674 818
-Width: 1116
-Flags: W
-HStem: -20 61<480.097 712.4> 858 64<551.945 800.916> 1055 109<814.703 1007.38> 1176 108<510.52 702.893> 1305 332
-VStem: 149 198<166.438 593.25> 432 39<1055 1114.16> 594 488 921 199<313.118 751.379> 1048 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -39692,11 +39471,6 @@ SplineSet
  1086.87 1284 l 1
  1066.34 1161.33 1021.07 1088 951.053 1064 c 0
 EndSplineSet
-Fore
-Refer: 460 780 N 1 0 0 1 1129 281 2
-Refer: 451 771 N 1 0 0 1 1086 31 2
-Refer: 80 111 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" otilde caroncomb
 EndChar
 
@@ -39767,10 +39541,7 @@ EndChar
 
 StartChar: otildecircumflex
 Encoding: 57676 57676 820
-Width: 1116
-Flags: W
-HStem: -20 61<480.097 712.4> 858 64<551.945 800.916> 1005 109<806.703 999.384> 1126 108<502.52 694.893> 1301 336
-VStem: 149 198<166.438 593.25> 424 39<1005 1064.16> 476 607 921 199<313.118 751.379> 1040 39<1175.41 1234>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -39815,11 +39586,6 @@ SplineSet
  1078.5 1234 l 1
  1057.97 1111.33 1012.7 1038 942.686 1014 c 0
 EndSplineSet
-Fore
-Refer: 450 770 S 1 0 0 1 1128 281 2
-Refer: 451 771 N 1 0 0 1 1078 -19 2
-Refer: 80 111 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" otilde circumflexcomb
 EndChar
 
@@ -39894,10 +39660,7 @@ EndChar
 
 StartChar: odieresisgrave
 Encoding: 57678 57678 822
-Width: 1116
-Flags: W
-HStem: -20 61<480.097 712.4> 858 64<551.945 800.916> 1055 201<493.409 629.265 870.409 1006.27> 1305 332
-VStem: 149 198<166.438 593.25> 466 204<1089.04 1227.32> 520 313 843 204<1089.04 1227.32> 921 199<313.118 751.379>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -39942,11 +39705,6 @@ SplineSet
  522.214 1055 500.359 1064.83 483.983 1084.5 c 128
  467.608 1104.17 461.707 1127.67 466.28 1155 c 128
 EndSplineSet
-Fore
-Refer: 448 768 N 1 0 0 1 1129 281 2
-Refer: 456 776 N 1 0 0 1 1088 31 2
-Refer: 80 111 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" odieresis gravecomb
 EndChar
 
@@ -40021,10 +39779,7 @@ EndChar
 
 StartChar: odieresisacute
 Encoding: 57680 57680 824
-Width: 1116
-Flags: W
-HStem: -20 61<480.097 712.4> 858 64<551.945 800.916> 1055 201<492.409 628.265 869.409 1005.27> 1305 332
-VStem: 149 198<166.438 593.25> 465 204<1089.04 1227.32> 753 425 842 204<1089.04 1227.32> 921 199<313.118 751.379>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -40069,11 +39824,6 @@ SplineSet
  522.214 1055 500.359 1064.83 483.983 1084.5 c 128
  467.608 1104.17 461.707 1127.67 466.28 1155 c 128
 EndSplineSet
-Fore
-Refer: 449 769 N 1 0 0 1 1129 281 2
-Refer: 456 776 N 1 0 0 1 1087 31 2
-Refer: 80 111 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" odieresis acutecomb
 EndChar
 
@@ -40151,10 +39901,7 @@ EndChar
 
 StartChar: odieresiscaron
 Encoding: 57682 57682 826
-Width: 1116
-Flags: W
-HStem: -20 61<480.097 712.4> 858 64<551.945 800.916> 1055 201<491.409 627.265 868.409 1004.27> 1305 332
-VStem: 149 198<166.438 593.25> 464 204<1089.04 1227.32> 594 488 841 204<1089.04 1227.32> 921 199<313.118 751.379>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -40202,11 +39949,6 @@ SplineSet
  522.214 1055 500.359 1064.83 483.983 1084.5 c 128
  467.608 1104.17 461.707 1127.67 466.28 1155 c 128
 EndSplineSet
-Fore
-Refer: 460 780 N 1 0 0 1 1129 281 2
-Refer: 456 776 N 1 0 0 1 1086 31 2
-Refer: 80 111 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" odieresis caroncomb
 EndChar
 
@@ -40284,10 +40026,7 @@ EndChar
 
 StartChar: odieresiscircumflex
 Encoding: 57684 57684 828
-Width: 1116
-Flags: W
-HStem: -20 61<480.097 712.4> 858 64<551.945 800.916> 1055 201<491.409 627.265 868.409 1004.27> 1301 336
-VStem: 149 198<166.438 593.25> 464 204<1089.04 1227.32> 477 607 841 204<1089.04 1227.32> 921 199<313.118 751.379>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -40335,11 +40074,6 @@ SplineSet
  522.214 1055 500.359 1064.83 483.983 1084.5 c 128
  467.608 1104.17 461.707 1127.67 466.28 1155 c 128
 EndSplineSet
-Fore
-Refer: 450 770 S 1 0 0 1 1129 281 2
-Refer: 456 776 S 1 0 0 1 1086 31 2
-Refer: 80 111 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" odieresis circumflexcomb
 EndChar
 
@@ -40400,8 +40134,7 @@ EndChar
 
 StartChar: utildegrave
 Encoding: 57686 57686 830
-Width: 1126
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -40447,11 +40180,6 @@ SplineSet
  1080.87 1284 l 1
  1060.34 1161.33 1015.07 1088 945.053 1064 c 0
 EndSplineSet
-Fore
-Refer: 448 768 N 1 0 0 1 1123 281 2
-Refer: 451 771 N 1 0 0 1 1080 31 2
-Refer: 86 117 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" utilde gravecomb
 EndChar
 
@@ -40512,10 +40240,7 @@ EndChar
 
 StartChar: utildemacron
 Encoding: 57688 57688 832
-Width: 1126
-Flags: W
-HStem: -20 69<431.109 683.667 884 1094.65> 858 43<186 287.307> 1055 109<808.703 1001.38> 1176 108<504.52 696.893> 1397 90<541 1067>
-VStem: 203 182<83.7236 337.112> 426 39<1055 1114.16> 526 556 799 178<112.375 254.944> 1042 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -40561,11 +40286,6 @@ SplineSet
  525.777 1397 l 1
  540.839 1487 l 1
 EndSplineSet
-Fore
-Refer: 452 772 N 1 0 0 1 1153 344 2
-Refer: 451 771 N 1 0 0 1 1080 31 2
-Refer: 86 117 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" utilde macroncomb
 EndChar
 
@@ -40629,10 +40349,7 @@ EndChar
 
 StartChar: utildecaron
 Encoding: 57690 57690 834
-Width: 1126
-Flags: W
-HStem: -20 69<431.109 683.667 884 1094.65> 858 43<186 287.307> 1055 109<808.703 1001.38> 1176 108<504.52 696.893> 1305 332
-VStem: 203 182<83.7236 337.112> 426 39<1055 1114.16> 583 488 799 178<112.375 254.944> 1042 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -40681,11 +40398,6 @@ SplineSet
  1080.87 1284 l 1
  1060.34 1161.33 1015.07 1088 945.053 1064 c 0
 EndSplineSet
-Fore
-Refer: 460 780 N 1 0 0 1 1118 281 2
-Refer: 451 771 N 1 0 0 1 1080 31 2
-Refer: 86 117 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" utilde caroncomb
 EndChar
 
@@ -40749,10 +40461,7 @@ EndChar
 
 StartChar: utildecircumflex
 Encoding: 57692 57692 836
-Width: 1126
-Flags: W
-HStem: -20 69<431.109 683.667 884 1094.65> 858 43<186 287.307> 1005 109<800.703 993.384> 1126 108<496.52 688.893> 1301 336
-VStem: 203 182<83.7236 337.112> 418 39<1005 1064.16> 470 607 799 178<112.375 254.944> 1034 39<1175.41 1234>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -40801,11 +40510,6 @@ SplineSet
  1072.5 1234 l 1
  1051.97 1111.33 1006.7 1038 936.686 1014 c 0
 EndSplineSet
-Fore
-Refer: 450 770 S 1 0 0 1 1122 281 2
-Refer: 451 771 N 1 0 0 1 1072 -19 2
-Refer: 86 117 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" utilde circumflexcomb
 EndChar
 
@@ -40876,10 +40580,7 @@ EndChar
 
 StartChar: udieresiscircumflex
 Encoding: 57694 57694 838
-Width: 1126
-Flags: W
-HStem: -20 69<431.109 683.667 884 1094.65> 858 43<186 287.307> 1055 201<484.409 620.265 861.409 997.265> 1301 336
-VStem: 203 182<83.7236 337.112> 457 204<1089.04 1227.32> 470 607 799 178<112.375 254.944> 834 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -40931,11 +40632,6 @@ SplineSet
  776.939 1637 l 1
  879.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 N 1 0 0 1 1122 281 2
-Refer: 456 776 N 1 0 0 1 1079 31 2
-Refer: 86 117 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" utilde circumflexcomb
 EndChar
 
@@ -41001,10 +40697,7 @@ EndChar
 
 StartChar: alphatildegrave
 Encoding: 57696 57696 840
-Width: 1105
-Flags: W
-HStem: -16 61<433.154 686.25 873.25 1075.64> 852 70<570.684 884.29> 1055 109<789.703 982.384> 1176 108<485.52 677.893> 1305 332
-VStem: 145 194<140.225 576.895> 407 39<1055 1114.16> 493 313 778 179<83.5471 414.281> 1023 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -41052,11 +40745,6 @@ SplineSet
  492.939 1637 l 1
  709.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 448 768 N 1 0 0 1 1102 281 2
-Refer: 451 771 N 1 0 0 1 1061 31 2
-Refer: 404 593 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" alphalatin tildecomb gravecomb
 EndChar
 
@@ -41124,10 +40812,7 @@ EndChar
 
 StartChar: alphatildeacute
 Encoding: 57698 57698 842
-Width: 1105
-Flags: W
-HStem: -16 61<433.154 686.25 873.25 1075.64> 852 70<570.684 884.29> 1055 109<788.703 981.384> 1176 108<484.52 676.893> 1305 332
-VStem: 145 194<140.225 576.895> 406 39<1055 1114.16> 726 425 778 179<83.5471 414.281> 1022 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -41175,11 +40860,6 @@ SplineSet
  726.382 1305 l 1
  932.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 449 769 N 1 0 0 1 1102 281 2
-Refer: 451 771 N 1 0 0 1 1060 31 2
-Refer: 404 593 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" alphalatin tildecomb acutecomb
 EndChar
 
@@ -41250,10 +40930,7 @@ EndChar
 
 StartChar: alphatildecaron
 Encoding: 57700 57700 844
-Width: 1105
-Flags: W
-HStem: -16 61<433.154 686.25 873.25 1075.64> 852 70<570.684 884.29> 1055 109<788.703 981.384> 1176 108<484.52 676.893> 1305 332
-VStem: 145 194<140.225 576.895> 406 39<1055 1114.16> 567 488 778 179<83.5471 414.281> 1022 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -41304,11 +40981,6 @@ SplineSet
  806.382 1305 l 1
  703.382 1305 l 1
 EndSplineSet
-Fore
-Refer: 460 780 N 1 0 0 1 1102 281 2
-Refer: 451 771 N 1 0 0 1 1060 31 2
-Refer: 404 593 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" alphalatin tildecomb caroncomb
 EndChar
 
@@ -41379,10 +41051,7 @@ EndChar
 
 StartChar: alphatildecircumflex
 Encoding: 57702 57702 846
-Width: 1105
-Flags: W
-HStem: -16 61<433.154 686.25 873.25 1075.64> 852 70<570.684 884.29> 1005 109<780.703 973.384> 1126 108<476.52 668.893> 1301 336
-VStem: 145 194<140.225 576.895> 398 39<1005 1064.16> 451 607 778 179<83.5471 414.281> 1014 39<1175.41 1234>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -41433,11 +41102,6 @@ SplineSet
  756.939 1637 l 1
  859.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 N 1 0 0 1 1103 281 2
-Refer: 451 771 N 1 0 0 1 1052 -19 2
-Refer: 404 593 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" alphalatin tildecomb circumflexcomb
 EndChar
 
@@ -41512,10 +41176,7 @@ EndChar
 
 StartChar: alphadieresisgrave
 Encoding: 57704 57704 848
-Width: 1105
-Flags: W
-HStem: -16 61<433.154 686.25 873.25 1075.64> 852 70<570.684 884.29> 1055 201<466.409 602.265 843.409 979.265> 1305 332
-VStem: 145 194<140.225 576.895> 439 204<1089.04 1227.32> 493 313 778 179<83.5471 414.281> 816 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -41566,11 +41227,6 @@ SplineSet
  500.214 1055 478.359 1064.83 461.983 1084.5 c 128
  445.608 1104.17 439.707 1127.67 444.28 1155 c 128
 EndSplineSet
-Fore
-Refer: 448 768 N 1 0 0 1 1102 281 2
-Refer: 456 776 N 1 0 0 1 1061 31 2
-Refer: 404 593 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" alphalatin dieresiscomb gravecomb
 EndChar
 
@@ -41645,10 +41301,7 @@ EndChar
 
 StartChar: alphadieresisacute
 Encoding: 57706 57706 850
-Width: 1105
-Flags: W
-HStem: -16 61<433.154 686.25 873.25 1075.64> 852 70<570.684 884.29> 1055 201<466.409 602.265 843.409 979.265> 1305 332
-VStem: 145 194<140.225 576.895> 439 204<1089.04 1227.32> 727 425 778 179<83.5471 414.281> 816 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -41699,11 +41352,6 @@ SplineSet
  500.214 1055 478.359 1064.83 461.983 1084.5 c 128
  445.608 1104.17 439.707 1127.67 444.28 1155 c 128
 EndSplineSet
-Fore
-Refer: 449 769 N 1 0 0 1 1103 281 2
-Refer: 456 776 N 1 0 0 1 1061 31 2
-Refer: 404 593 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" alphalatin dieresiscomb acutecomb
 EndChar
 
@@ -41781,10 +41429,7 @@ EndChar
 
 StartChar: alphadieresiscaron
 Encoding: 57708 57708 852
-Width: 1105
-Flags: W
-HStem: -16 61<433.154 686.25 873.25 1075.64> 852 70<570.684 884.29> 1055 201<466.409 602.265 843.409 979.265> 1305 332
-VStem: 145 194<140.225 576.895> 439 204<1089.04 1227.32> 568 488 778 179<83.5471 414.281> 816 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -41838,11 +41483,6 @@ SplineSet
  500.214 1055 478.359 1064.83 461.983 1084.5 c 128
  445.608 1104.17 439.707 1127.67 444.28 1155 c 128
 EndSplineSet
-Fore
-Refer: 460 780 S 1 0 0 1 1103 281 2
-Refer: 456 776 S 1 0 0 1 1061 31 2
-Refer: 404 593 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" alphalatin dieresiscomb caroncomb
 EndChar
 
@@ -41920,10 +41560,7 @@ EndChar
 
 StartChar: alphadieresiscircumflex
 Encoding: 57710 57710 854
-Width: 1105
-Flags: W
-HStem: -16 61<433.154 686.25 873.25 1075.64> 852 70<570.684 884.29> 1055 201<464.409 600.265 841.409 977.265> 1301 336
-VStem: 145 194<140.225 576.895> 437 204<1089.04 1227.32> 450 607 778 179<83.5471 414.281> 814 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -41977,11 +41614,6 @@ SplineSet
  500.214 1055 478.359 1064.83 461.983 1084.5 c 128
  445.608 1104.17 439.707 1127.67 444.28 1155 c 128
 EndSplineSet
-Fore
-Refer: 450 770 N 1 0 0 1 1102 281 2
-Refer: 456 776 N 1 0 0 1 1059 31 2
-Refer: 404 593 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" alphalatin dieresiscomb circumflexcomb
 EndChar
 
@@ -42053,8 +41685,7 @@ EndChar
 
 StartChar: eopentildegrave
 Encoding: 57712 57712 856
-Width: 927
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -42108,11 +41739,6 @@ SplineSet
  457.939 1637 l 1
  674.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 448 768 S 1 0 0 1 1065 281 2
-Refer: 451 771 S 1 0 0 1 1024 31 2
-Refer: 410 603 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" eopen tildecomb gravecomb
 EndChar
 
@@ -42182,8 +41808,7 @@ EndChar
 
 StartChar: eopentildeacute
 Encoding: 57714 57714 858
-Width: 927
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -42237,11 +41862,6 @@ SplineSet
  691.382 1305 l 1
  897.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 449 769 S 1 0 0 1 1066 281 2
-Refer: 451 771 S 1 0 0 1 1024 31 2
-Refer: 410 603 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" eopen tildecomb acutecomb
 EndChar
 
@@ -42314,8 +41934,7 @@ EndChar
 
 StartChar: eopentildecaron
 Encoding: 57716 57716 860
-Width: 927
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -42372,11 +41991,6 @@ SplineSet
  771.382 1305 l 1
  668.382 1305 l 1
 EndSplineSet
-Fore
-Refer: 460 780 S 1 0 0 1 1066 281 2
-Refer: 451 771 S 1 0 0 1 1024 31 2
-Refer: 410 603 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" eopen tildecomb caroncomb
 EndChar
 
@@ -42449,8 +42063,7 @@ EndChar
 
 StartChar: eopentildecircumflex
 Encoding: 57718 57718 862
-Width: 927
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -42507,11 +42120,6 @@ SplineSet
  721.939 1637 l 1
  824.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 N 1 0 0 1 1067 281 2
-Refer: 451 771 N 1 0 0 1 1016 -19 2
-Refer: 410 603 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" eopen tildecomb circumflexcomb
 EndChar
 
@@ -42588,8 +42196,7 @@ EndChar
 
 StartChar: eopendieresisgrave
 Encoding: 57720 57720 864
-Width: 927
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -42646,11 +42253,6 @@ SplineSet
  457.939 1637 l 1
  674.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 448 768 N 1 0 0 1 1065 281 2
-Refer: 456 776 N 1 0 0 1 1024 31 2
-Refer: 410 603 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" eopen dieresiscomb gravecomb
 EndChar
 
@@ -42727,8 +42329,7 @@ EndChar
 
 StartChar: eopendieresisacute
 Encoding: 57722 57722 866
-Width: 927
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -42785,11 +42386,6 @@ SplineSet
  691.382 1305 l 1
  897.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 449 769 S 1 0 0 1 1066 281 2
-Refer: 456 776 S 1 0 0 1 1024 31 2
-Refer: 410 603 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" eopen dieresiscomb acutecomb
 EndChar
 
@@ -42869,8 +42465,7 @@ EndChar
 
 StartChar: eopendieresiscaron
 Encoding: 57724 57724 868
-Width: 927
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -42930,11 +42525,6 @@ SplineSet
  771.382 1305 l 1
  668.382 1305 l 1
 EndSplineSet
-Fore
-Refer: 460 780 S 1 0 0 1 1066 281 2
-Refer: 456 776 S 1 0 0 1 1024 31 2
-Refer: 410 603 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" eopen dieresiscomb caroncomb
 EndChar
 
@@ -43014,8 +42604,7 @@ EndChar
 
 StartChar: eopendieresiscircumflex
 Encoding: 57726 57726 870
-Width: 927
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -43075,11 +42664,6 @@ SplineSet
  721.939 1637 l 1
  824.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 N 1 0 0 1 1067 281 2
-Refer: 456 776 N 1 0 0 1 1024 31 2
-Refer: 410 603 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" eopen dieresiscomb circumflexcomb
 EndChar
 
@@ -43141,8 +42725,7 @@ EndChar
 
 StartChar: eturnedtildegrave
 Encoding: 57728 57728 872
-Width: 1009
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -43190,11 +42773,6 @@ SplineSet
  457.939 1637 l 1
  674.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 448 768 S 1 0 0 1 1065 281 2
-Refer: 451 771 S 1 0 0 1 1024 31 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" schwa tildecomb gravecomb
 Ligature2: "'ccmp' Glyph Composition Subtable" eturned tildecomb gravecomb
 EndChar
@@ -43257,8 +42835,7 @@ EndChar
 
 StartChar: eturnedtildeacute
 Encoding: 57730 57730 874
-Width: 1009
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -43306,11 +42883,6 @@ SplineSet
  691.382 1305 l 1
  897.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 449 769 S 1 0 0 1 1066 281 2
-Refer: 451 771 S 1 0 0 1 1024 31 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" schwa tildecomb acutecomb
 Ligature2: "'ccmp' Glyph Composition Subtable" eturned tildecomb acutecomb
 EndChar
@@ -43376,8 +42948,7 @@ EndChar
 
 StartChar: eturnedtildecaron
 Encoding: 57732 57732 876
-Width: 1009
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -43428,11 +42999,6 @@ SplineSet
  771.382 1305 l 1
  668.382 1305 l 1
 EndSplineSet
-Fore
-Refer: 460 780 S 1 0 0 1 1066 281 2
-Refer: 451 771 S 1 0 0 1 1024 31 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" schwa tildecomb caroncomb
 Ligature2: "'ccmp' Glyph Composition Subtable" eturned tildecomb caroncomb
 EndChar
@@ -43498,8 +43064,7 @@ EndChar
 
 StartChar: eturnedtildecircumflex
 Encoding: 57734 57734 878
-Width: 1009
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -43550,11 +43115,6 @@ SplineSet
  721.939 1637 l 1
  824.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 S 1 0 0 1 1067 281 2
-Refer: 451 771 S 1 0 0 1 1016 -19 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" schwa tildecomb circumflexcomb
 Ligature2: "'ccmp' Glyph Composition Subtable" eturned tildecomb circumflexcomb
 EndChar
@@ -43624,8 +43184,7 @@ EndChar
 
 StartChar: eturneddieresisgrave
 Encoding: 57736 57736 880
-Width: 1009
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -43676,11 +43235,6 @@ SplineSet
  457.939 1637 l 1
  674.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 448 768 S 1 0 0 1 1065 281 2
-Refer: 456 776 S 1 0 0 1 1024 31 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" schwa dieresiscomb gravecomb
 Ligature2: "'ccmp' Glyph Composition Subtable" eturned dieresiscomb gravecomb
 EndChar
@@ -43750,8 +43304,7 @@ EndChar
 
 StartChar: eturneddieresisacute
 Encoding: 57738 57738 882
-Width: 1009
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -43802,11 +43355,6 @@ SplineSet
  691.382 1305 l 1
  897.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 449 769 S 1 0 0 1 1066 281 2
-Refer: 456 776 S 1 0 0 1 1024 31 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" schwa dieresiscomb acutecomb
 Ligature2: "'ccmp' Glyph Composition Subtable" eturned dieresiscomb acutecomb
 EndChar
@@ -43879,8 +43427,7 @@ EndChar
 
 StartChar: eturneddieresiscaron
 Encoding: 57740 57740 884
-Width: 1009
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -43934,11 +43481,6 @@ SplineSet
  771.382 1305 l 1
  668.382 1305 l 1
 EndSplineSet
-Fore
-Refer: 460 780 S 1 0 0 1 1066 281 2
-Refer: 456 776 S 1 0 0 1 1024 31 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" schwa dieresiscomb caroncomb
 Ligature2: "'ccmp' Glyph Composition Subtable" eturned dieresiscomb caroncomb
 EndChar
@@ -44011,8 +43553,7 @@ EndChar
 
 StartChar: eturneddieresiscircumflex
 Encoding: 57742 57742 886
-Width: 1009
-Flags: W
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -44066,11 +43607,6 @@ SplineSet
  721.939 1637 l 1
  824.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 S 1 0 0 1 1067 281 2
-Refer: 456 776 S 1 0 0 1 1024 31 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" schwa dieresiscomb circumflexcomb
 Ligature2: "'ccmp' Glyph Composition Subtable" eturned dieresiscomb circumflexcomb
 EndChar
@@ -44734,10 +44270,7 @@ EndChar
 
 StartChar: iotatildeacute
 Encoding: 57754 57754 898
-Width: 650
-Flags: W
-HStem: -16 71<273.5 474.707> 786 48<181 281.075> 902 20<484 504.667> 1055 109<512.703 705.384> 1176 108<208.52 400.893> 1305 332
-VStem: 130 39<1055 1114.16> 201 179<57.5808 256> 450 425 534 37<161.875 245> 746 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -44780,10 +44313,6 @@ SplineSet
  450.382 1305 l 1
  656.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 449 769 S 1 0 0 1 826 281 2
-Refer: 451 771 S 1 0 0 1 784 31 2
-Refer: 417 617 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition Subtable" iotalatin tildecomb acutecomb
 EndChar
 
@@ -44841,10 +44370,7 @@ EndChar
 
 StartChar: iotatildecaron
 Encoding: 57756 57756 900
-Width: 650
-Flags: W
-HStem: -16 71<273.5 474.707> 786 48<181 281.075> 902 20<484 504.667> 1055 109<512.703 705.384> 1176 108<208.52 400.893> 1305 332
-VStem: 130 39<1055 1114.16> 201 179<57.5808 256> 291 488 534 37<161.875 245> 746 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -44890,10 +44416,6 @@ SplineSet
  530.382 1305 l 1
  427.382 1305 l 1
 EndSplineSet
-Fore
-Refer: 460 780 S 1 0 0 1 826 281 2
-Refer: 451 771 S 1 0 0 1 784 31 2
-Refer: 417 617 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition Subtable" iotalatin tildecomb caroncomb
 EndChar
 
@@ -44951,10 +44473,7 @@ EndChar
 
 StartChar: iotatildecircumflex
 Encoding: 57758 57758 902
-Width: 650
-Flags: W
-HStem: -16 71<273.5 474.707> 786 48<181 281.075> 902 20<484 504.667> 1005 109<504.703 697.384> 1126 108<200.52 392.893> 1301 336
-VStem: 122 39<1005 1064.16> 174 607 201 179<57.5808 256> 534 37<161.875 245> 738 39<1175.41 1234>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -45000,10 +44519,6 @@ SplineSet
  480.939 1637 l 1
  583.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 N 1 0 0 1 826 281 2
-Refer: 451 771 N 1 0 0 1 776 -19 2
-Refer: 417 617 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition Subtable" iotalatin tildecomb circumflexcomb
 EndChar
 
@@ -45063,10 +44578,7 @@ EndChar
 
 StartChar: iotadieresisgrave
 Encoding: 57760 57760 904
-Width: 650
-Flags: W
-HStem: -16 71<273.5 474.707> 786 48<181 281.075> 902 20<484 504.667> 1055 201<188.409 324.265 565.409 701.265> 1305 332
-VStem: 161 204<1089.04 1227.32> 201 179<57.5808 256> 217 313 534 37<161.875 245> 538 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -45112,10 +44624,6 @@ SplineSet
  216.939 1637 l 1
  433.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 448 768 S 1 0 0 1 826 281 2
-Refer: 456 776 S 1 0 0 1 783 31 2
-Refer: 417 617 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition Subtable" iotalatin dieresiscomb gravecomb
 EndChar
 
@@ -45177,10 +44685,7 @@ EndChar
 
 StartChar: iotadieresisacute
 Encoding: 57762 57762 906
-Width: 650
-Flags: W
-HStem: -16 71<273.5 474.707> 786 48<181 281.075> 902 20<484 504.667> 1055 201<189.409 325.265 566.409 702.265> 1305 332
-VStem: 162 204<1089.04 1227.32> 201 179<57.5808 256> 450 425 534 37<161.875 245> 539 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -45226,10 +44731,6 @@ SplineSet
  450.382 1305 l 1
  656.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 449 769 N 1 0 0 1 826 281 2
-Refer: 456 776 N 1 0 0 1 784 31 2
-Refer: 417 617 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition Subtable" iotalatin dieresiscomb acutecomb
 EndChar
 
@@ -45294,10 +44795,7 @@ EndChar
 
 StartChar: iotadieresiscaron
 Encoding: 57764 57764 908
-Width: 650
-Flags: W
-HStem: -16 71<273.5 474.707> 786 48<181 281.075> 902 20<484 504.667> 1055 201<188.409 324.265 565.409 701.265> 1305 332
-VStem: 161 204<1089.04 1227.32> 201 179<57.5808 256> 291 488 534 37<161.875 245> 538 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -45346,10 +44844,6 @@ SplineSet
  530.382 1305 l 1
  427.382 1305 l 1
 EndSplineSet
-Fore
-Refer: 460 780 N 1 0 0 1 826 281 2
-Refer: 456 776 N 1 0 0 1 783 31 2
-Refer: 417 617 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition Subtable" iotalatin dieresiscomb caroncomb
 EndChar
 
@@ -45414,10 +44908,7 @@ EndChar
 
 StartChar: iotadieresiscircumflex
 Encoding: 57766 57766 910
-Width: 650
-Flags: W
-HStem: -16 71<273.5 474.707> 786 48<181 281.075> 902 20<484 504.667> 1055 201<188.409 324.265 565.409 701.265> 1301 336
-VStem: 161 204<1089.04 1227.32> 174 607 201 179<57.5808 256> 534 37<161.875 245> 538 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -45466,10 +44957,6 @@ SplineSet
  480.939 1637 l 1
  583.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 N 1 0 0 1 826 281 2
-Refer: 456 776 N 1 0 0 1 783 31 2
-Refer: 417 617 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition Subtable" iotalatin dieresiscomb circumflexcomb
 EndChar
 
@@ -45528,10 +45015,7 @@ EndChar
 
 StartChar: istroketildegrave
 Encoding: 57768 57768 912
-Width: 651
-Flags: W
-HStem: 0 21<248 435.341> 498 69<159 689> 786 48<258 359.213> 902 20<562.5 582.659> 1055 109<598.703 791.384> 1176 108<294.52 486.893> 1305 332
-VStem: 148 552 216 39<1055 1114.16> 248 338 303 313 832 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -45576,10 +45060,6 @@ SplineSet
  302.939 1637 l 1
  519.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 448 768 N 1 0 0 1 912 281 2
-Refer: 451 771 N 1 0 0 1 870 31 2
-Refer: 731 57601 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition Subtable" istroke tildecomb gravecomb
 EndChar
 
@@ -45636,10 +45116,7 @@ EndChar
 
 StartChar: istroketildeacute
 Encoding: 57770 57770 914
-Width: 651
-Flags: W
-HStem: 0 21<248 435.341> 498 69<159 689> 786 48<258 359.213> 902 20<562.5 582.659> 1055 109<598.703 791.384> 1176 108<294.52 486.893> 1305 332
-VStem: 148 552 216 39<1055 1114.16> 248 338 536 425 832 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -45684,10 +45161,6 @@ SplineSet
  536.382 1305 l 1
  742.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 449 769 S 1 0 0 1 912 281 2
-Refer: 451 771 S 1 0 0 1 870 31 2
-Refer: 731 57601 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition Subtable" istroke tildecomb acutecomb
 EndChar
 
@@ -45749,10 +45222,7 @@ EndChar
 
 StartChar: istroketildecaron
 Encoding: 57772 57772 916
-Width: 651
-Flags: W
-HStem: 0 21<248 435.341> 498 69<159 689> 786 48<258 359.213> 902 20<562.5 582.659> 1055 109<598.703 791.384> 1176 108<294.52 486.893> 1305 332
-VStem: 148 552 216 39<1055 1114.16> 248 338 377 488 832 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -45800,10 +45270,6 @@ SplineSet
  616.382 1305 l 1
  513.382 1305 l 1
 EndSplineSet
-Fore
-Refer: 460 780 S 1 0 0 1 912 281 2
-Refer: 451 771 S 1 0 0 1 870 31 2
-Refer: 731 57601 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition Subtable" istroke tildecomb caroncomb
 EndChar
 
@@ -45865,10 +45331,7 @@ EndChar
 
 StartChar: istroketildecircumflex
 Encoding: 57774 57774 918
-Width: 651
-Flags: W
-HStem: 0 21<248 435.341> 498 69<159 689> 786 48<258 359.213> 902 20<562.5 582.659> 1005 109<590.703 783.384> 1126 108<286.52 478.893> 1301 336
-VStem: 148 552 208 39<1005 1064.16> 248 338 260 607 824 39<1175.41 1234>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -45916,10 +45379,6 @@ SplineSet
  566.939 1637 l 1
  669.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 N 1 0 0 1 912 281 2
-Refer: 451 771 N 1 0 0 1 862 -19 2
-Refer: 731 57601 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition Subtable" istroke tildecomb circumflexcomb
 EndChar
 
@@ -45985,10 +45444,7 @@ EndChar
 
 StartChar: istrokedieresisgrave
 Encoding: 57776 57776 920
-Width: 651
-Flags: W
-HStem: 0 21<248 435.341> 498 69<159 689> 786 48<258 359.213> 902 20<562.5 582.659> 1055 201<274.409 410.265 651.409 787.265> 1305 332
-VStem: 148 552 247 204<1089.04 1227.32> 248 338 303 313 624 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -46036,10 +45492,6 @@ SplineSet
  302.939 1637 l 1
  519.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 448 768 S 1 0 0 1 912 281 2
-Refer: 456 776 S 1 0 0 1 869 31 2
-Refer: 731 57601 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition Subtable" istroke dieresiscomb gravecomb
 EndChar
 
@@ -46105,10 +45557,7 @@ EndChar
 
 StartChar: istrokedieresisacute
 Encoding: 57778 57778 922
-Width: 651
-Flags: W
-HStem: 0 21<248 435.341> 498 69<159 689> 786 48<258 359.213> 902 20<562.5 582.659> 1055 201<275.409 411.265 652.409 788.265> 1305 332
-VStem: 148 552 248 204<1089.04 1227.32> 248 338 536 425 625 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -46156,10 +45605,6 @@ SplineSet
  536.382 1305 l 1
  742.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 449 769 N 1 0 0 1 912 281 2
-Refer: 456 776 N 1 0 0 1 870 31 2
-Refer: 731 57601 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition Subtable" istroke dieresiscomb acutecomb
 EndChar
 
@@ -46228,10 +45673,7 @@ EndChar
 
 StartChar: istrokedieresiscaron
 Encoding: 57780 57780 924
-Width: 651
-Flags: W
-HStem: 0 21<248 435.341> 498 69<159 689> 786 48<258 359.213> 902 20<562.5 582.659> 1055 201<274.409 410.265 651.409 787.265> 1305 332
-VStem: 148 552 247 204<1089.04 1227.32> 248 338 377 488 624 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -46282,10 +45724,6 @@ SplineSet
  616.382 1305 l 1
  513.382 1305 l 1
 EndSplineSet
-Fore
-Refer: 460 780 S 1 0 0 1 912 281 2
-Refer: 456 776 S 1 0 0 1 869 31 2
-Refer: 731 57601 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition Subtable" istroke dieresiscomb caroncomb
 EndChar
 
@@ -46354,10 +45792,7 @@ EndChar
 
 StartChar: istrokedieresiscircumflex
 Encoding: 57782 57782 926
-Width: 651
-Flags: W
-HStem: 0 21<248 435.341> 498 69<159 689> 786 48<258 359.213> 902 20<562.5 582.659> 1055 201<274.409 410.265 651.409 787.265> 1301 336
-VStem: 148 552 247 204<1089.04 1227.32> 248 338 260 607 624 204<1089.04 1227.32>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -46408,10 +45843,6 @@ SplineSet
  566.939 1637 l 1
  669.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 N 1 0 0 1 912 281 2
-Refer: 456 776 N 1 0 0 1 869 31 2
-Refer: 731 57601 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition Subtable" istroke dieresiscomb circumflexcomb
 EndChar
 
@@ -46472,10 +45903,7 @@ EndChar
 
 StartChar: oopentildegrave
 Encoding: 57784 57784 928
-Width: 997
-Flags: W
-HStem: -20 92<272.438 571.995> 861 61<457.52 730.612> 1055 109<713.703 906.384> 1176 108<409.52 601.893> 1305 332
-VStem: 99 56<199.329 243.84> 220 177<622.24 748.339> 331 39<1055 1114.16> 417 313 826 179<396.111 749.248> 947 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -46527,11 +45955,6 @@ SplineSet
  417.939 1637 l 1
  634.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 448 768 N 1 0 0 1 1026 281 2
-Refer: 451 771 N 1 0 0 1 985 31 2
-Refer: 406 596 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" oopen tildecomb gravecomb
 EndChar
 
@@ -46594,10 +46017,7 @@ EndChar
 
 StartChar: oopentildeacute
 Encoding: 57786 57786 930
-Width: 997
-Flags: W
-HStem: -20 92<272.438 571.995> 861 61<457.52 730.612> 1055 109<713.703 906.384> 1176 108<409.52 601.893> 1305 332
-VStem: 99 56<199.329 243.84> 220 177<622.24 748.339> 331 39<1055 1114.16> 651 425 826 179<396.111 749.248> 947 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -46649,11 +46069,6 @@ SplineSet
  651.382 1305 l 1
  857.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 449 769 N 1 0 0 1 1027 281 2
-Refer: 451 771 N 1 0 0 1 985 31 2
-Refer: 406 596 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" oopen tildecomb acutecomb
 EndChar
 
@@ -46719,10 +46134,7 @@ EndChar
 
 StartChar: oopentildecaron
 Encoding: 57788 57788 932
-Width: 997
-Flags: W
-HStem: -20 92<272.438 571.995> 861 61<457.52 730.612> 1055 109<713.703 906.384> 1176 108<409.52 601.893> 1305 332
-VStem: 99 56<199.329 243.84> 220 177<622.24 748.339> 331 39<1055 1114.16> 492 488 826 179<396.111 749.248> 947 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -46777,11 +46189,6 @@ SplineSet
  731.382 1305 l 1
  628.382 1305 l 1
 EndSplineSet
-Fore
-Refer: 460 780 N 1 0 0 1 1027 281 2
-Refer: 451 771 N 1 0 0 1 985 31 2
-Refer: 406 596 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" oopen tildecomb caroncomb
 EndChar
 
@@ -46847,10 +46254,7 @@ EndChar
 
 StartChar: oopentildecircumflex
 Encoding: 57790 57790 934
-Width: 997
-Flags: W
-HStem: -20 92<272.438 571.995> 861 61<457.52 730.612> 1005 109<705.703 898.384> 1126 108<401.52 593.893> 1301 336
-VStem: 99 56<199.329 243.84> 220 177<622.24 748.339> 323 39<1005 1064.16> 376 607 826 179<396.111 749.248> 939 39<1175.41 1234>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -46905,11 +46309,6 @@ SplineSet
  681.939 1637 l 1
  784.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 N 1 0 0 1 1028 281 2
-Refer: 451 771 N 1 0 0 1 977 -19 2
-Refer: 406 596 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" oopen tildecomb circumflexcomb
 EndChar
 
@@ -46979,10 +46378,7 @@ EndChar
 
 StartChar: oopendieresisgrave
 Encoding: 57792 57792 936
-Width: 997
-Flags: W
-HStem: -20 92<272.438 571.995> 861 61<457.52 730.612> 1055 201<390.409 526.265 767.409 903.265> 1305 332
-VStem: 99 56<199.329 243.84> 220 177<622.24 748.339> 363 204<1089.04 1227.32> 417 313 740 204<1089.04 1227.32> 826 179<396.111 749.248>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -47037,11 +46433,6 @@ SplineSet
  417.939 1637 l 1
  634.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 448 768 S 1 0 0 1 1026 281 2
-Refer: 456 776 S 1 0 0 1 985 31 2
-Refer: 406 596 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" oopen dieresiscomb gravecomb
 EndChar
 
@@ -47111,10 +46502,7 @@ EndChar
 
 StartChar: oopendieresisacute
 Encoding: 57794 57794 938
-Width: 997
-Flags: W
-HStem: -20 92<272.438 571.995> 861 61<457.52 730.612> 1055 201<390.409 526.265 767.409 903.265> 1305 332
-VStem: 99 56<199.329 243.84> 220 177<622.24 748.339> 363 204<1089.04 1227.32> 651 425 740 204<1089.04 1227.32> 826 179<396.111 749.248>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -47169,11 +46557,6 @@ SplineSet
  651.382 1305 l 1
  857.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 449 769 S 1 0 0 1 1027 281 2
-Refer: 456 776 S 1 0 0 1 985 31 2
-Refer: 406 596 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" oopen dieresiscomb acutecomb
 EndChar
 
@@ -47246,10 +46629,7 @@ EndChar
 
 StartChar: oopendieresiscaron
 Encoding: 57796 57796 940
-Width: 997
-Flags: W
-HStem: -20 92<272.438 571.995> 861 61<457.52 730.612> 1055 201<390.409 526.265 767.409 903.265> 1305 332
-VStem: 99 56<199.329 243.84> 220 177<622.24 748.339> 363 204<1089.04 1227.32> 492 488 740 204<1089.04 1227.32> 826 179<396.111 749.248>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -47307,11 +46687,6 @@ SplineSet
  731.382 1305 l 1
  628.382 1305 l 1
 EndSplineSet
-Fore
-Refer: 460 780 N 1 0 0 1 1027 281 2
-Refer: 456 776 N 1 0 0 1 985 31 2
-Refer: 406 596 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" oopen dieresiscomb caroncomb
 EndChar
 
@@ -47384,10 +46759,7 @@ EndChar
 
 StartChar: oopendieresiscircumflex
 Encoding: 57798 57798 942
-Width: 997
-Flags: W
-HStem: -20 92<272.438 571.995> 861 61<457.52 730.612> 1055 201<390.409 526.265 767.409 903.265> 1301 336
-VStem: 99 56<199.329 243.84> 220 177<622.24 748.339> 363 204<1089.04 1227.32> 376 607 740 204<1089.04 1227.32> 826 179<396.111 749.248>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -47445,11 +46817,6 @@ SplineSet
  681.939 1637 l 1
  784.939 1637 l 1
 EndSplineSet
-Fore
-Refer: 450 770 N 1 0 0 1 1028 281 2
-Refer: 456 776 N 1 0 0 1 985 31 2
-Refer: 406 596 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" oopen dieresiscomb circumflexcomb
 EndChar
 
@@ -47542,10 +46909,7 @@ EndChar
 
 StartChar: atildemacron
 Encoding: 57800 57800 945
-Width: 989
-Flags: W
-HStem: -16 61<326.209 568.45 768 969.64> 848 74<403.66 696.557> 1055 201<384.409 520.265 761.409 897.265> 1305 332
-VStem: 97 190<70.2369 298.642> 236 177<609.039 727.309> 357 204<1089.04 1227.32> 411 313 674 178<97.002 413.062> 734 204<1089.04 1227.32> 745 185<433.293 808.487>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -47615,11 +46979,6 @@ SplineSet
  425.777 1397 l 1
  440.839 1487 l 1
 EndSplineSet
-Fore
-Refer: 452 772 S 1 0 0 1 1053 344 2
-Refer: 451 771 S 1 0 0 1 999 31 2
-Refer: 66 97 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" atilde macroncomb
 EndChar
 
@@ -47691,10 +47050,7 @@ EndChar
 
 StartChar: eopentildemacron
 Encoding: 57802 57802 947
-Width: 927
-Flags: W
-HStem: -20 77<382.203 722.341> 430 78<475.756 633> 860 62<519.384 788.129> 1055 109<752.703 945.384> 1176 108<448.52 640.893> 1397 90<466 992>
-VStem: 117 195<114.222 335.172> 214 199<559.336 766.529> 370 39<1055 1114.16> 451 556 783 179<664.915 776.547> 986 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -47748,11 +47104,6 @@ SplineSet
  450.777 1397 l 1
  465.839 1487 l 1
 EndSplineSet
-Fore
-Refer: 452 772 S 1 0 0 1 1078 344 2
-Refer: 451 771 S 1 0 0 1 1024 31 2
-Refer: 410 603 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" eopen tildecomb macroncomb
 EndChar
 
@@ -47815,10 +47166,7 @@ EndChar
 
 StartChar: oopentildemacron
 Encoding: 57804 57804 949
-Width: 997
-Flags: W
-HStem: -20 92<272.438 571.995> 861 61<457.52 730.612> 1055 109<713.703 906.384> 1176 108<409.52 601.893> 1397 90<427 953>
-VStem: 99 56<199.329 243.84> 220 177<622.24 748.339> 331 39<1055 1114.16> 412 556 826 179<396.111 749.248> 947 39<1225.41 1284>
+Width: 2048
 LayerCount: 2
 Back
 SplineSet
@@ -47870,11 +47218,6 @@ SplineSet
  425.777 1397 l 1
  440.839 1487 l 1
 EndSplineSet
-Fore
-Refer: 452 772 N 1 0 0 1 1039 344 2
-Refer: 451 771 N 1 0 0 1 985 31 2
-Refer: 406 596 N 1 0 0 1 0 0 2
-Validated: 1
 Ligature2: "'ccmp' Glyph Composition Subtable" oopen tildecomb macroncomb
 EndChar
 
@@ -49844,11 +49187,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-161 585 m 1,0,-1
- 176 676 l 1,1,-1
- 1390 676 l 1,2,-1
- 1375 585 l 1,3,-1
- 161 585 l 1,0,-1
+161 585 m 1
+ 176 676 l 1
+ 1390 676 l 1
+ 1375 585 l 1
+ 161 585 l 1
 EndSplineSet
 Refer: 37 68 N 1 0 0 1 0 0 2
 EndChar
@@ -49863,11 +49206,11 @@ VStem: 182 198<166.683 584.583> 809 178<94.8254 399.094>
 LayerCount: 2
 Fore
 SplineSet
-105 418 m 1,0,-1
- 120 509 l 1,1,-1
- 1136 509 l 1,2,-1
- 1121 418 l 1,3,-1
- 105 418 l 1,0,-1
+105 418 m 1
+ 120 509 l 1
+ 1136 509 l 1
+ 1121 418 l 1
+ 105 418 l 1
 EndSplineSet
 Refer: 69 100 N 1 0 0 1 36 0 2
 EndChar

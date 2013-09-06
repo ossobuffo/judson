@@ -80,6 +80,9 @@ Eng (U+014A): Standard form of capital Eng in Judson is a taller form of the
 
 ChangeLog
 ---------
+- 2013-09-06  Made GSUB combining-mark placement work. Improved shape of
+              upper- and lower-case s-swash. Removed redundant
+	      stacked-diacritic lowercase glyphs from PUA.
 - 2013-09-04  Improved shape of horned Vietnamese vowels, Latin iota, eng,
               heng. Improved kerning of lowercase i with diacritics. Improved
 	      kerning of lowercase d-hook with letters with tittles or

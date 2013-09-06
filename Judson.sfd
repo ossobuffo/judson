@@ -19,7 +19,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1278450264
-ModificationTime: 1378479884
+ModificationTime: 1378492808
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -65,9 +65,7 @@ Lookup: 1 0 0 "'ss01' Centered Ogonek"  {"'ss01' Centered Ogonek subtable"  } ['
 Lookup: 1 0 0 "'ss05' Binocular g"  {"'ss05' Binocular g subtable"  } ['ss05' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss04' B-hook becomes B-topbar"  {"'ss04' B-hook becomes B-topbar subtable"  } ['ss04' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss03' Long-stroke Barred O"  {"'ss03' Long-stroke Barred O subtable"  } ['ss03' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "'abvm' Above Base Mark lookup 1"  {"'abvm' Above Base Mark lookup 1-1"  } ['abvm' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 2"  {"'mark' Mark Positioning lookup 2-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "'blwm' Below Base Mark lookup 3"  {"'blwm' Below Base Mark lookup 3-1"  } ['blwm' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 4"  {"'mkmk' Mark to Mark lookup 4-1"  } ['mkmk' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -230,15 +228,15 @@ SCANTYPE
 EndTTInstrs
 LangName: 1033 "" "" "" "" "" "Version 20130808" 
 GaspTable: 1 65535 3 0
-OtfFeatName: 'ss09' 1033 "D with stroke through bowl" 
-OtfFeatName: 'ss08' 1033 "Z with dot-below becomes Z with top-hook" 
-OtfFeatName: 'ss07' 1033 "Reversed-Sigma Ezh" 
-OtfFeatName: 'ss06' 1033 "T with right hook" 
-OtfFeatName: 'ss05' 1033 "Binocular g" 
-OtfFeatName: 'ss04' 1033 "B-hook becomes B-topbar" 
-OtfFeatName: 'ss03' 1033 "Long Stroke on Barred O" 
-OtfFeatName: 'ss02' 1033 "Left Hook on Hooked d" 
 OtfFeatName: 'ss01' 1033 "Centered Ogoneks" 
+OtfFeatName: 'ss02' 1033 "Left Hook on Hooked d" 
+OtfFeatName: 'ss03' 1033 "Long Stroke on Barred O" 
+OtfFeatName: 'ss04' 1033 "B-hook becomes B-topbar" 
+OtfFeatName: 'ss05' 1033 "Binocular g" 
+OtfFeatName: 'ss06' 1033 "T with right hook" 
+OtfFeatName: 'ss07' 1033 "Reversed-Sigma Ezh" 
+OtfFeatName: 'ss08' 1033 "Z with dot-below becomes Z with top-hook" 
+OtfFeatName: 'ss09' 1033 "D with stroke through bowl" 
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -265,8 +263,8 @@ Grid
  -776.5 1275 l 1
 EndSplineSet
 TeXData: 1 0 0 251392 125696 83797 461312 -1048576 83797 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "mktop"  "'mkmk' Mark to Mark lookup 4-1" "cedilla"  "'blwm' Below Base Mark lookup 3-1" "ogonek"  "'blwm' Below Base Mark lookup 3-1" "below"  "'blwm' Below Base Mark lookup 3-1" "mid"  "'mark' Mark Positioning lookup 2-1" "top"  "'abvm' Above Base Mark lookup 1-1" "horn"  "'abvm' Above Base Mark lookup 1-1" 
-BeginChars: 65537 1116
+AnchorClass2: "ogonek"  "'mark' Mark Positioning lookup 2-1" "below"  "'mark' Mark Positioning lookup 2-1" "cedilla"  "'mark' Mark Positioning lookup 2-1" "top"  "'mark' Mark Positioning lookup 2-1" "mktop"  "'mkmk' Mark to Mark lookup 4-1" "mid"  "'mark' Mark Positioning lookup 2-1" 
+BeginChars: 65537 1028
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -2049,7 +2047,6 @@ AnchorPoint: "mid" 670 602 basechar 0
 AnchorPoint: "below" 659 0 basechar 0
 AnchorPoint: "cedilla" 659 0 basechar 0
 AnchorPoint: "ogonek" 719 0 basechar 0
-AnchorPoint: "horn" 1026 901 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3264,7 +3261,6 @@ AnchorPoint: "ogonek" 573 0 basechar 0
 AnchorPoint: "cedilla" 573 0 basechar 0
 AnchorPoint: "below" 573 0 basechar 0
 AnchorPoint: "mid" 557 471 basechar 0
-AnchorPoint: "horn" 877 641 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3442,14 +3438,14 @@ SplineSet
  317 41 317 41 424 41 c 4,34,35
  425 41 425 41 427 41 c 4,36,37
  513 41 513 41 578 100 c 4,38,39
- 618 136 618 136 618 184 c 132,-1,41
- 618 232 618 232 580 274 c 4,42,43
- 517 343 517 343 375 393 c 5,44,45
- 217 450 217 450 162 512 c 4,46,47
- 104 577 104 577 104 683 c 132,-1,48
- 104 789 104 789 187.5 855.5 c 132,-1,49
- 271 922 271 922 391 922 c 4,50,51
- 474 922 474 922 570 876 c 4,52,53
+ 618 136 618 136 618 184 c 132,-1,40
+ 618 232 618 232 580 274 c 4,41,42
+ 517 343 517 343 375 393 c 5,43,44
+ 217 450 217 450 162 512 c 4,45,46
+ 104 577 104 577 104 683 c 132,-1,47
+ 104 789 104 789 187.5 855.5 c 132,-1,48
+ 271 922 271 922 391 922 c 4,49,50
+ 474 922 474 922 570 876 c 4,51,52
  602 860 602 860 616 860 c 4,0,1
 EndSplineSet
 Validated: 1
@@ -3459,7 +3455,7 @@ EndChar
 StartChar: t
 Encoding: 116 116 85
 Width: 681
-Flags: MW
+Flags: MWO
 AnchorPoint: "top" 324 1270 basechar 0
 AnchorPoint: "cedilla" 377 0 basechar 0
 AnchorPoint: "below" 377 0 basechar 0
@@ -3473,17 +3469,17 @@ SplineSet
  369 840 l 1,4,-1
  369 188 l 2,5,6
  369 124 369 124 392 90.5 c 128,-1,7
- 415 57 415 57 463 57 c 0,8,9
- 511 57 511 57 549.5 93.5 c 128,-1,10
- 588 130 588 130 602 193 c 1,11,-1
- 651 168 l 1,12,13
- 607 -20 607 -20 406 -20 c 0,14,15
- 172 -20 172 -20 172 205 c 2,16,-1
- 172 840 l 1,17,-1
- 29 840 l 1,18,-1
- 29 901 l 1,19,20
- 126 901 126 901 203.5 981 c 128,-1,21
- 281 1061 281 1061 281 1198 c 1,22,-1
+ 415 57 415 57 463 57 c 128,-1,8
+ 511 57 511 57 549.5 93.5 c 128,-1,9
+ 588 130 588 130 602 193 c 1,10,-1
+ 651 168 l 1,11,12
+ 607 -20 607 -20 406 -20 c 0,13,14
+ 172 -20 172 -20 172 205 c 2,15,-1
+ 172 840 l 1,16,-1
+ 29 840 l 1,17,-1
+ 29 901 l 1,18,19
+ 126 901 126 901 203.5 981 c 128,-1,20
+ 281 1061 281 1061 281 1198 c 1,21,-1
  369 1198 l 1,0,-1
 EndSplineSet
 Validated: 1
@@ -3499,7 +3495,6 @@ AnchorPoint: "cedilla" 539 0 basechar 0
 AnchorPoint: "below" 563 0 basechar 0
 AnchorPoint: "ogonek" 795 0 basechar 0
 AnchorPoint: "mid" 553 504 basechar 0
-AnchorPoint: "horn" 944 641 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6010,11 +6005,11 @@ AnchorPoint: "top" 657 1270 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-289 -57 m 1,0,-1
- 229 -20 l 1,1,-1
- 1026 1253 l 1,2,-1
- 1085 1217 l 1,3,-1
- 289 -57 l 1,0,-1
+289 -57 m 1
+ 229 -20 l 1
+ 1026 1253 l 1
+ 1085 1217 l 1
+ 289 -57 l 1
 EndSplineSet
 Refer: 48 79 N 1 0 0 1 0 0 2
 EndChar
@@ -7182,7 +7177,6 @@ StartChar: otilde
 Encoding: 245 245 181
 Width: 1116
 Flags: MW
-AnchorPoint: "horn" 877 641 basechar 0
 AnchorPoint: "mid" 557 471 basechar 0
 AnchorPoint: "below" 573 0 basechar 0
 AnchorPoint: "cedilla" 573 0 basechar 0
@@ -7221,7 +7215,6 @@ StartChar: odieresis
 Encoding: 246 246 182
 Width: 1116
 Flags: MW
-AnchorPoint: "horn" 877 641 basechar 0
 AnchorPoint: "mid" 557 471 basechar 0
 AnchorPoint: "below" 573 0 basechar 0
 AnchorPoint: "cedilla" 573 0 basechar 0
@@ -7304,11 +7297,11 @@ AnchorPoint: "top" 561 1055 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-229 -72 m 1,0,-1
- 174 -31 l 1,1,-1
- 877 973 l 1,2,-1
- 932 932 l 1,3,-1
- 229 -72 l 1,0,-1
+229 -72 m 1
+ 174 -31 l 1
+ 877 973 l 1
+ 932 932 l 1
+ 229 -72 l 1
 EndSplineSet
 Refer: 80 111 N 1 0 0 1 0 0 2
 EndChar
@@ -7436,7 +7429,6 @@ StartChar: udieresis
 Encoding: 252 252 188
 Width: 1126
 Flags: MW
-AnchorPoint: "horn" 944 641 basechar 0
 AnchorPoint: "mid" 553 504 basechar 0
 AnchorPoint: "ogonek" 795 0 basechar 0
 AnchorPoint: "below" 563 0 basechar 0
@@ -8294,11 +8286,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-86 563 m 1,0,-1
- 86 633 l 1,1,-1
- 612 633 l 1,2,-1
- 612 563 l 1,3,-1
- 86 563 l 1,0,-1
+86 563 m 1
+ 86 633 l 1
+ 612 633 l 1
+ 612 563 l 1
+ 86 563 l 1
 EndSplineSet
 Refer: 37 68 N 1 0 0 1 0 0 2
 EndChar
@@ -8350,11 +8342,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-512 1006 m 1,0,-1
- 512 1075 l 1,1,-1
- 1053 1075 l 1,2,-1
- 1053 1006 l 1,3,-1
- 512 1006 l 1,0,-1
+512 1006 m 1
+ 512 1075 l 1
+ 1053 1075 l 1
+ 1053 1006 l 1
+ 512 1006 l 1
 EndSplineSet
 Refer: 69 100 N 1 0 0 1 0 0 2
 EndChar
@@ -8664,20 +8656,20 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-898 -336 m 1,0,1
- 847 -410 847 -410 729 -410 c 0,2,3
- 672 -410 672 -410 622 -384 c 0,4,5
- 552 -346 552 -346 551 -267 c 0,6,7
- 551 -141 551 -141 615 -66 c 0,8,9
- 680 9 680 9 766 57 c 0,10,11
- 786 68 786 68 820 87 c 0,12,13
- 855 106 855 106 869 114 c 1,14,-1
- 869 95 l 1,15,16
- 685 -56 685 -56 685 -238 c 0,17,18
- 685 -290 685 -290 715 -318 c 0,19,20
- 745 -346 745 -346 790 -347 c 0,21,22
- 835 -347 835 -347 880 -315 c 1,23,-1
- 898 -336 l 1,0,1
+898 -336 m 1
+ 847 -410 847 -410 729 -410 c 0
+ 672 -410 672 -410 622 -384 c 0
+ 552 -346 552 -346 551 -267 c 0
+ 551 -141 551 -141 615 -66 c 0
+ 680 9 680 9 766 57 c 0
+ 786 68 786 68 820 87 c 0
+ 855 106 855 106 869 114 c 1
+ 869 95 l 1
+ 685 -56 685 -56 685 -238 c 0
+ 685 -290 685 -290 715 -318 c 0
+ 745 -346 745 -346 790 -347 c 0
+ 835 -347 835 -347 880 -315 c 1
+ 898 -336 l 1
 EndSplineSet
 Refer: 70 101 N 1 0 0 1 0 0 2
 Kerns2: 75 47 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
@@ -9260,11 +9252,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-143 825 m 1,0,-1
- 143 895 l 1,1,-1
- 1184 895 l 1,2,-1
- 1184 825 l 1,3,-1
- 143 825 l 1,0,-1
+143 825 m 1
+ 143 895 l 1
+ 1184 895 l 1
+ 1184 825 l 1
+ 143 825 l 1
 EndSplineSet
 Refer: 41 72 N 1 0 0 1 0 0 2
 EndChar
@@ -9315,11 +9307,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-49 1006 m 1,0,-1
- 49 1076 l 1,1,-1
- 590 1076 l 1,2,-1
- 590 1006 l 1,3,-1
- 49 1006 l 1,0,-1
+49 1006 m 1
+ 49 1076 l 1
+ 590 1076 l 1
+ 590 1006 l 1
+ 49 1006 l 1
 EndSplineSet
 Refer: 73 104 N 1 0 0 1 0 0 2
 EndChar
@@ -10256,11 +10248,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-125 498 m 1,0,-1
- 80 551 l 1,1,-1
- 494 899 l 1,2,-1
- 539 846 l 1,3,-1
- 125 498 l 1,0,-1
+125 498 m 1
+ 80 551 l 1
+ 494 899 l 1
+ 539 846 l 1
+ 125 498 l 1
 EndSplineSet
 Refer: 45 76 N 1 0 0 1 0 0 2
 EndChar
@@ -10297,11 +10289,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-82 498 m 1,0,-1
- 37 551 l 1,1,-1
- 451 899 l 1,2,-1
- 496 846 l 1,3,-1
- 82 498 l 1,0,-1
+82 498 m 1
+ 37 551 l 1
+ 451 899 l 1
+ 496 846 l 1
+ 82 498 l 1
 EndSplineSet
 Refer: 77 108 N 1 0 0 1 0 0 2
 Kerns2: 87 33 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  88 33 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  90 33 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
@@ -11838,11 +11830,11 @@ Flags: MW
 LayerCount: 2
 Fore
 SplineSet
-266 612 m 1,0,-1
- 266 682 l 1,1,-1
- 807 682 l 1,2,-1
- 807 612 l 1,3,-1
- 266 612 l 1,0,-1
+266 612 m 1
+ 266 682 l 1
+ 807 682 l 1
+ 807 612 l 1
+ 266 612 l 1
 EndSplineSet
 Refer: 53 84 N 1 0 0 1 0 0 2
 EndChar
@@ -11856,11 +11848,11 @@ HStem: 514 70<35 575>
 LayerCount: 2
 Fore
 SplineSet
-35 514 m 1,0,-1
- 35 584 l 1,1,-1
- 575 584 l 1,2,-1
- 575 514 l 1,3,-1
- 35 514 l 1,0,-1
+35 514 m 1
+ 35 584 l 1
+ 575 584 l 1
+ 575 514 l 1
+ 35 514 l 1
 EndSplineSet
 Refer: 85 116 N 1 0 0 1 0 0 2
 EndChar
@@ -11911,7 +11903,6 @@ StartChar: utilde
 Encoding: 361 361 296
 Width: 1126
 Flags: MW
-AnchorPoint: "horn" 944 641 basechar 0
 AnchorPoint: "mid" 553 504 basechar 0
 AnchorPoint: "ogonek" 795 0 basechar 0
 AnchorPoint: "below" 563 0 basechar 0
@@ -12304,21 +12295,21 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-931 74 m 1,0,1
- 874 22 874 22 810 -74 c 0,2,3
- 746 -170 746 -170 746 -230 c 0,4,5
- 746 -290 746 -290 776 -318 c 0,6,7
- 806 -346 806 -346 851 -346 c 0,8,9
- 896 -346 896 -346 940 -315 c 1,10,-1
- 958 -336 l 1,11,12
- 910 -408 910 -408 799 -408 c 0,13,14
- 688 -408 688 -408 640 -349 c 0,15,16
- 612 -315 612 -315 612 -261 c 0,17,18
- 612 -207 612 -207 636 -169 c 0,19,20
- 692 -80 692 -80 768 -22 c 0,21,22
- 844 36 844 36 876 58 c 0,23,24
- 908 80 908 80 921 91 c 1,25,-1
- 931 74 l 1,0,1
+931 74 m 1
+ 874 22 874 22 810 -74 c 0
+ 746 -170 746 -170 746 -230 c 0
+ 746 -290 746 -290 776 -318 c 0
+ 806 -346 806 -346 851 -346 c 0
+ 896 -346 896 -346 940 -315 c 1
+ 958 -336 l 1
+ 910 -408 910 -408 799 -408 c 0
+ 688 -408 688 -408 640 -349 c 0
+ 612 -315 612 -315 612 -261 c 0
+ 612 -207 612 -207 636 -169 c 0
+ 692 -80 692 -80 768 -22 c 0
+ 844 36 844 36 876 58 c 0
+ 908 80 908 80 921 91 c 1
+ 931 74 l 1
 EndSplineSet
 Refer: 54 85 N 1 0 0 1 0 0 2
 EndChar
@@ -12369,19 +12360,19 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-942 -336 m 1,0,1
- 891 -410 891 -410 773 -410 c 0,2,3
- 716 -410 716 -410 656 -378 c 0,4,5
- 596 -346 596 -346 596 -278 c 0,6,7
- 596 -101 596 -101 796 -4 c 0,8,9
- 850 22 850 22 908 37 c 1,10,-1
- 914 19 l 1,11,12
- 843 -4 843 -4 786 -84 c 0,13,14
- 729 -164 729 -164 729 -227 c 0,15,16
- 729 -290 729 -290 759 -318 c 0,17,18
- 789 -346 789 -346 834 -346 c 0,19,20
- 879 -346 879 -346 924 -315 c 1,21,-1
- 942 -336 l 1,0,1
+942 -336 m 1
+ 891 -410 891 -410 773 -410 c 0
+ 716 -410 716 -410 656 -378 c 0
+ 596 -346 596 -346 596 -278 c 0
+ 596 -101 596 -101 796 -4 c 0
+ 850 22 850 22 908 37 c 1
+ 914 19 l 1
+ 843 -4 843 -4 786 -84 c 0
+ 729 -164 729 -164 729 -227 c 0
+ 729 -290 729 -290 759 -318 c 0
+ 789 -346 789 -346 834 -346 c 0
+ 879 -346 879 -346 924 -315 c 1
+ 942 -336 l 1
 EndSplineSet
 Refer: 86 117 N 1 0 0 1 0 0 2
 Kerns2: 75 115 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
@@ -12901,11 +12892,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-10 1006 m 1,0,-1
- 10 1075 l 1,1,-1
- 550 1075 l 1,2,-1
- 550 1006 l 1,3,-1
- 10 1006 l 1,0,-1
+10 1006 m 1
+ 10 1075 l 1
+ 550 1075 l 1
+ 550 1006 l 1
+ 10 1006 l 1
 EndSplineSet
 Refer: 67 98 N 1 0 0 1 0 0 2
 EndChar
@@ -13538,11 +13529,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-123 567 m 1,0,-1
- 123 637 l 1,1,-1
- 569 637 l 1,2,-1
- 569 567 l 1,3,-1
- 123 567 l 1,0,-1
+123 567 m 1
+ 123 637 l 1
+ 569 637 l 1
+ 569 567 l 1
+ 123 567 l 1
 EndSplineSet
 Refer: 42 73 N 1 0 0 1 38 0 2
 EndChar
@@ -13758,11 +13749,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-1084 569 m 1,0,-1
- 252 569 l 1,1,-1
- 252 639 l 1,2,-1
- 1084 639 l 1,3,-1
- 1084 569 l 1,0,-1
+1084 569 m 1
+ 252 569 l 1
+ 252 639 l 1
+ 1084 639 l 1
+ 1084 569 l 1
 EndSplineSet
 Refer: 48 79 N 1 0 0 1 0 0 2
 Substitution2: "'ss03' Long-stroke Barred O subtable" Olongstroke
@@ -14167,31 +14158,31 @@ SplineSet
  1256 1281 1256 1281 1285 1281 c 0,13,14
  1358 1281 1358 1281 1402.5 1233 c 128,-1,15
  1447 1185 1447 1185 1447 1117 c 128,-1,16
- 1447 1049 1447 1049 1420 1007 c 128,-1,18
- 1393 965 1393 965 1327 933.5 c 128,-1,20
- 1261 902 1261 902 1165 902 c 2,21,-1
- 1060 902 l 1,22,-1
+ 1447 1049 1447 1049 1420 1007 c 128,-1,17
+ 1393 965 1393 965 1327 933.5 c 128,-1,18
+ 1261 902 1261 902 1165 902 c 2,19,-1
+ 1060 902 l 1,20,-1
  1060 945 l 1,0,1
-1085 508 m 2,23,24
- 1085 117 1085 117 830 10 c 0,25,26
- 758 -20 758 -20 672 -20 c 0,27,28
- 180 -20 180 -20 180 508 c 2,29,-1
- 180 1114 l 1,30,31
- 163 1155 163 1155 51 1155 c 1,32,-1
- 51 1198 l 1,33,-1
- 498 1198 l 1,34,-1
- 498 1155 l 1,35,36
- 386 1155 386 1155 369 1114 c 1,37,-1
- 369 479 l 2,38,39
- 369 275 369 275 458.5 162 c 128,-1,40
- 548 49 548 49 688.5 49 c 128,-1,41
- 829 49 829 49 922.5 163.5 c 128,-1,42
- 1016 278 1016 278 1016 467 c 2,43,-1
- 1016 1114 l 1,44,45
- 999 1155 999 1155 887 1155 c 1,46,-1
- 887 1198 l 1,47,-1
- 1085 1198 l 1,48,-1
- 1085 508 l 2,23,24
+1085 508 m 2,21,22
+ 1085 117 1085 117 830 10 c 0,23,24
+ 758 -20 758 -20 672 -20 c 0,25,26
+ 180 -20 180 -20 180 508 c 2,27,-1
+ 180 1114 l 1,28,29
+ 163 1155 163 1155 51 1155 c 1,30,-1
+ 51 1198 l 1,31,-1
+ 498 1198 l 1,32,-1
+ 498 1155 l 1,33,34
+ 386 1155 386 1155 369 1114 c 1,35,-1
+ 369 479 l 2,36,37
+ 369 275 369 275 458.5 162 c 128,-1,38
+ 548 49 548 49 688.5 49 c 128,-1,39
+ 829 49 829 49 922.5 163.5 c 128,-1,40
+ 1016 278 1016 278 1016 467 c 2,41,-1
+ 1016 1114 l 1,42,43
+ 999 1155 999 1155 887 1155 c 1,44,-1
+ 887 1198 l 1,45,-1
+ 1085 1198 l 1,46,-1
+ 1085 508 l 2,21,22
 EndSplineSet
 Kerns2: 157 55 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  307 55 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  309 55 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  311 55 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  689 55 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  691 55 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  693 55 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  782 55 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  786 55 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  788 55 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
@@ -14206,22 +14197,22 @@ AnchorPoint: "below" 563 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-927 641 m 1,0,-1
- 927 684 l 1,1,-1
- 1019 684 l 2,2,3
- 1107 684 1107 684 1157 723 c 0,4,5
- 1207 762 1207 762 1207 827 c 0,6,7
- 1207 841 1207 841 1187 841 c 1,8,-1
- 1154 837 l 1,9,10
- 1060 837 1060 837 1060 927 c 0,11,12
- 1060 966 1060 966 1087.5 992.5 c 0,13,14
- 1115 1019 1115 1019 1144 1019 c 0,15,16
- 1217 1019 1217 1019 1261.5 971 c 0,17,18
- 1306 923 1306 923 1306 860.5 c 0,19,20
- 1306 798 1306 798 1287 761.5 c 0,21,22
- 1252.91 696.02 1252.91 696.02 1176.96 668.51 c 0,23,24
- 1101 641 1101 641 1019 641 c 2,25,-1
- 927 641 l 1,0,-1
+927 641 m 1
+ 927 684 l 1
+ 1019 684 l 2
+ 1107 684 1107 684 1157 723 c 0
+ 1207 762 1207 762 1207 827 c 0
+ 1207 841 1207 841 1187 841 c 1
+ 1154 837 l 1
+ 1060 837 1060 837 1060 927 c 0
+ 1060 966 1060 966 1087.5 992.5 c 0
+ 1115 1019 1115 1019 1144 1019 c 0
+ 1217 1019 1217 1019 1261.5 971 c 0
+ 1306 923 1306 923 1306 860.5 c 0
+ 1306 798 1306 798 1287 761.5 c 0
+ 1252.91 696.02 1252.91 696.02 1176.96 668.51 c 0
+ 1101 641 1101 641 1019 641 c 2
+ 927 641 l 1
 EndSplineSet
 Refer: 86 117 N 1 0 0 1 0 0 2
 EndChar
@@ -16251,11 +16242,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-72 289 m 1,0,-1
- 72 358 l 1,1,-1
- 612 358 l 1,2,-1
- 612 289 l 1,3,-1
- 72 289 l 1,0,-1
+72 289 m 1
+ 72 358 l 1
+ 612 358 l 1
+ 612 289 l 1
+ 72 289 l 1
 EndSplineSet
 Refer: 35 66 N 1 0 0 1 0 0 2
 EndChar
@@ -16311,11 +16302,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-119 659 m 1,0,-1
- 119 729 l 1,1,-1
- 1159 729 l 1,2,-1
- 1159 659 l 1,3,-1
- 119 659 l 1,0,-1
+119 659 m 1
+ 119 729 l 1
+ 1159 729 l 1
+ 1159 659 l 1
+ 119 659 l 1
 EndSplineSet
 Refer: 54 85 N 1 0 0 1 0 0 2
 EndChar
@@ -16489,11 +16480,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-293 545 m 1,0,-1
- 51 545 l 1,1,-1
- 51 614 l 1,2,-1
- 293 614 l 1,3,-1
- 293 545 l 1,0,-1
+293 545 m 1
+ 51 545 l 1
+ 51 614 l 1
+ 293 614 l 1
+ 293 545 l 1
 EndSplineSet
 Refer: 51 82 N 1 0 0 1 0 0 2
 EndChar
@@ -16538,11 +16529,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-68 426 m 1,0,-1
- 68 496 l 1,1,-1
- 608 496 l 1,2,-1
- 608 426 l 1,3,-1
- 68 426 l 1,0,-1
+68 426 m 1
+ 68 496 l 1
+ 608 496 l 1
+ 608 426 l 1
+ 68 426 l 1
 EndSplineSet
 Refer: 83 114 N 1 0 0 1 0 0 2
 EndChar
@@ -22123,7 +22114,6 @@ Encoding: 795 795 574
 Width: 0
 VWidth: 0
 Flags: MW
-AnchorPoint: "horn" -213 1008 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -32718,11 +32708,11 @@ AnchorPoint: "top" 672 1270 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1288 560 m 1,0,-1
- 25 560 l 1,1,-1
- 25 629 l 1,2,-1
- 1288 629 l 1,3,-1
- 1288 560 l 1,0,-1
+1288 560 m 1
+ 25 560 l 1
+ 25 629 l 1
+ 1288 629 l 1
+ 1288 560 l 1
 EndSplineSet
 Refer: 48 79 N 1 0 0 1 0 0 2
 EndChar
@@ -32740,11 +32730,11 @@ AnchorPoint: "top" 576 1055 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1122 430 m 1,0,-1
- 25 430 l 1,1,-1
- 25 499 l 1,2,-1
- 1122 499 l 1,3,-1
- 1122 430 l 1,0,-1
+1122 430 m 1
+ 25 430 l 1
+ 25 499 l 1
+ 1122 499 l 1
+ 1122 430 l 1
 EndSplineSet
 Refer: 80 111 N 1 0 0 1 15 0 2
 EndChar
@@ -33436,20 +33426,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" A tildecomb gravecomb
 EndChar
 
-StartChar: atildegrave
-Encoding: 57620 57620 897
-Width: 989
-Flags: W
-LayerCount: 2
-Fore
-Refer: 163 227 N 1 0 0 1 0 0 2
-Refer: 510 715 N 1 0 0 1 16 282 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" atilde gravecomb
-EndChar
-
 StartChar: Atildeacute
-Encoding: 57621 57621 898
+Encoding: 57621 57621 897
 Width: 1118
 Flags: W
 LayerCount: 2
@@ -33460,20 +33438,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Atilde acutecomb
 EndChar
 
-StartChar: atildeacute
-Encoding: 57622 57622 899
-Width: 989
-Flags: W
-LayerCount: 2
-Fore
-Refer: 163 227 N 1 0 0 1 0 0 2
-Refer: 509 714 S 1 0 0 1 305 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" atilde acutecomb
-EndChar
-
 StartChar: Atildecaron
-Encoding: 57623 57623 900
+Encoding: 57623 57623 898
 Width: 1118
 Flags: W
 HStem: 1270 94<552.927 813.835> 1348 94<296.015 556.505>
@@ -33486,20 +33452,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Atilde caroncomb
 EndChar
 
-StartChar: atildecaron
-Encoding: 57624 57624 901
-Width: 989
-Flags: W
-LayerCount: 2
-Fore
-Refer: 163 227 N 1 0 0 1 0 0 2
-Refer: 506 711 S 1 0 0 1 90 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" atilde caroncomb
-EndChar
-
 StartChar: Atildecircumflex
-Encoding: 57625 57625 902
+Encoding: 57625 57625 899
 Width: 1118
 Flags: W
 HStem: 1270 94<552.927 813.835> 1348 94<296.015 556.505>
@@ -33512,23 +33466,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Atilde circumflexcomb
 EndChar
 
-StartChar: atildecircumflex
-Encoding: 57626 57626 903
-Width: 989
-Flags: W
-HStem: 1303 336
-VStem: 156 607
-LayerCount: 2
-Fore
-Refer: 549 770 S 1 0 0 1 980 283 2
-Refer: 66 97 N 1 0 0 1 0 0 2
-Refer: 527 732 N 1 0 0 1 27 -19 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" atilde circumflexcomb
-EndChar
-
 StartChar: Adieresisgrave
-Encoding: 57627 57627 904
+Encoding: 57627 57627 900
 Width: 1118
 Flags: W
 LayerCount: 2
@@ -33539,20 +33478,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Adieresis gravecomb
 EndChar
 
-StartChar: adieresisgrave
-Encoding: 57628 57628 905
-Width: 989
-Flags: W
-LayerCount: 2
-Fore
-Refer: 510 715 N 1 0 0 1 16 281 2
-Refer: 164 228 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" adieresis gravecomb
-EndChar
-
 StartChar: Adieresisacute
-Encoding: 57629 57629 906
+Encoding: 57629 57629 901
 Width: 1118
 Flags: W
 LayerCount: 2
@@ -33563,20 +33490,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Adieresis acutecomb
 EndChar
 
-StartChar: adieresisacute
-Encoding: 57630 57630 907
-Width: 989
-Flags: W
-LayerCount: 2
-Fore
-Refer: 509 714 N 1 0 0 1 305 281 2
-Refer: 164 228 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" adieresis acutecomb
-EndChar
-
 StartChar: Adieresiscaron
-Encoding: 57631 57631 908
+Encoding: 57631 57631 902
 Width: 1118
 Flags: W
 LayerCount: 2
@@ -33587,20 +33502,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Adieresis caroncomb
 EndChar
 
-StartChar: adieresiscaron
-Encoding: 57632 57632 909
-Width: 989
-Flags: W
-LayerCount: 2
-Fore
-Refer: 506 711 N 1 0 0 1 90 281 2
-Refer: 164 228 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" adieresis caroncomb
-EndChar
-
 StartChar: Adieresiscircumflex
-Encoding: 57633 57633 910
+Encoding: 57633 57633 903
 Width: 1118
 Flags: W
 LayerCount: 2
@@ -33611,22 +33514,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Adieresis circumflexcomb
 EndChar
 
-StartChar: adieresiscircumflex
-Encoding: 57634 57634 911
-Width: 989
-Flags: W
-HStem: 1303 336
-VStem: 156 607
-LayerCount: 2
-Fore
-Refer: 549 770 N 1 0 0 1 980 283 2
-Refer: 164 228 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" adieresis circumflexcomb
-EndChar
-
 StartChar: Etildegrave
-Encoding: 57635 57635 912
+Encoding: 57635 57635 904
 Width: 1038
 Flags: W
 LayerCount: 2
@@ -33637,20 +33526,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Etilde gravecomb
 EndChar
 
-StartChar: etildegrave
-Encoding: 57636 57636 913
-Width: 1009
-Flags: W
-LayerCount: 2
-Fore
-Refer: 729 7869 N 1 0 0 1 0 0 2
-Refer: 510 715 S 1 0 0 1 61 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" etilde gravecomb
-EndChar
-
 StartChar: Etildeacute
-Encoding: 57637 57637 914
+Encoding: 57637 57637 905
 Width: 1038
 Flags: W
 LayerCount: 2
@@ -33661,20 +33538,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Etilde acutecomb
 EndChar
 
-StartChar: etildeacute
-Encoding: 57638 57638 915
-Width: 1009
-Flags: W
-LayerCount: 2
-Fore
-Refer: 729 7869 N 1 0 0 1 0 0 2
-Refer: 509 714 S 1 0 0 1 350 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" etilde acutecomb
-EndChar
-
 StartChar: Etildecaron
-Encoding: 57639 57639 916
+Encoding: 57639 57639 906
 Width: 1038
 Flags: W
 HStem: 1270 94<552.927 813.835> 1348 94<296.015 556.505>
@@ -33687,20 +33552,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Etilde caroncomb
 EndChar
 
-StartChar: etildecaron
-Encoding: 57640 57640 917
-Width: 1009
-Flags: W
-LayerCount: 2
-Fore
-Refer: 729 7869 N 1 0 0 1 0 0 2
-Refer: 506 711 S 1 0 0 1 135 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" etilde caroncomb
-EndChar
-
 StartChar: Etildecircumflex
-Encoding: 57641 57641 918
+Encoding: 57641 57641 907
 Width: 1038
 Flags: W
 HStem: 1270 94<552.927 813.835> 1348 94<296.015 556.505>
@@ -33713,23 +33566,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Etilde circumflexcomb
 EndChar
 
-StartChar: etildecircumflex
-Encoding: 57642 57642 919
-Width: 1009
-Flags: W
-HStem: 1303 336
-VStem: 200 607
-LayerCount: 2
-Fore
-Refer: 549 770 S 1 0 0 1 1024 283 2
-Refer: 70 101 N 1 0 0 1 0 0 2
-Refer: 527 732 N 1 0 0 1 71 -19 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" etilde circumflexcomb
-EndChar
-
 StartChar: Edieresisgrave
-Encoding: 57643 57643 920
+Encoding: 57643 57643 908
 Width: 1038
 Flags: W
 LayerCount: 2
@@ -33740,20 +33578,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Edieresis gravecomb
 EndChar
 
-StartChar: edieresisgrave
-Encoding: 57644 57644 921
-Width: 1009
-Flags: W
-LayerCount: 2
-Fore
-Refer: 510 715 S 1 0 0 1 61 281 2
-Refer: 171 235 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" edieresis gravecomb
-EndChar
-
 StartChar: Edieresisacute
-Encoding: 57645 57645 922
+Encoding: 57645 57645 909
 Width: 1038
 Flags: W
 LayerCount: 2
@@ -33764,20 +33590,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Edieresis acutecomb
 EndChar
 
-StartChar: edieresisacute
-Encoding: 57646 57646 923
-Width: 1009
-Flags: W
-LayerCount: 2
-Fore
-Refer: 509 714 S 1 0 0 1 350 281 2
-Refer: 171 235 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" edieresis acutecomb
-EndChar
-
 StartChar: Edieresiscaron
-Encoding: 57647 57647 924
+Encoding: 57647 57647 910
 Width: 1038
 Flags: W
 LayerCount: 2
@@ -33788,20 +33602,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Edieresis caroncomb
 EndChar
 
-StartChar: edieresiscaron
-Encoding: 57648 57648 925
-Width: 1009
-Flags: W
-LayerCount: 2
-Fore
-Refer: 506 711 S 1 0 0 1 135 281 2
-Refer: 171 235 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" edieresis caroncomb
-EndChar
-
 StartChar: Edieresiscircumflex
-Encoding: 57649 57649 926
+Encoding: 57649 57649 911
 Width: 1038
 Flags: W
 LayerCount: 2
@@ -33812,22 +33614,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Edieresis circumflexcomb
 EndChar
 
-StartChar: edieresiscircumflex
-Encoding: 57650 57650 927
-Width: 1009
-Flags: W
-HStem: 1303 336
-VStem: 200 607
-LayerCount: 2
-Fore
-Refer: 549 770 N 1 0 0 1 1024 283 2
-Refer: 171 235 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" edieresis circumflexcomb
-EndChar
-
 StartChar: Edieresismacron
-Encoding: 57651 57651 928
+Encoding: 57651 57651 912
 Width: 1038
 Flags: W
 LayerCount: 2
@@ -33838,20 +33626,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Edieresis macroncomb
 EndChar
 
-StartChar: edieresismacron
-Encoding: 57652 57652 929
-Width: 1009
-Flags: W
-LayerCount: 2
-Fore
-Refer: 171 235 N 1 0 0 1 0 0 2
-Refer: 508 713 S 1 0 0 1 146 367 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" edieresis macroncomb
-EndChar
-
 StartChar: Itildegrave
-Encoding: 57653 57653 930
+Encoding: 57653 57653 913
 Width: 618
 Flags: W
 LayerCount: 2
@@ -33862,20 +33638,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Itilde gravecomb
 EndChar
 
-StartChar: itildegrave
-Encoding: 57654 57654 931
-Width: 548
-Flags: W
-LayerCount: 2
-Fore
-Refer: 510 715 S 1 0 0 1 -150 281 2
-Refer: 233 297 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" itilde gravecomb
-EndChar
-
 StartChar: Itildeacute
-Encoding: 57655 57655 932
+Encoding: 57655 57655 914
 Width: 618
 Flags: W
 LayerCount: 2
@@ -33886,20 +33650,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Itilde acutecomb
 EndChar
 
-StartChar: itildeacute
-Encoding: 57656 57656 933
-Width: 548
-Flags: W
-LayerCount: 2
-Fore
-Refer: 509 714 S 1 0 0 1 139 281 2
-Refer: 233 297 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" itilde acutecomb
-EndChar
-
 StartChar: Itildecaron
-Encoding: 57657 57657 934
+Encoding: 57657 57657 915
 Width: 618
 Flags: W
 LayerCount: 2
@@ -33910,20 +33662,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Itilde caroncomb
 EndChar
 
-StartChar: itildecaron
-Encoding: 57658 57658 935
-Width: 548
-Flags: W
-LayerCount: 2
-Fore
-Refer: 233 297 N 1 0 0 1 0 0 2
-Refer: 506 711 S 1 0 0 1 -76 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" itilde caroncomb
-EndChar
-
 StartChar: Itildecircumflex
-Encoding: 57659 57659 936
+Encoding: 57659 57659 916
 Width: 618
 Flags: W
 LayerCount: 2
@@ -33934,23 +33674,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Itilde circumflexcomb
 EndChar
 
-StartChar: itildecircumflex
-Encoding: 57660 57660 937
-Width: 548
-Flags: W
-HStem: 1303 336
-VStem: -13 607
-LayerCount: 2
-Fore
-Refer: 549 770 S 1 0 0 1 811 283 2
-Refer: 241 305 N 1 0 0 1 0 0 2
-Refer: 527 732 N 1 0 0 1 -139 -19 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" itilde circumflexcomb
-EndChar
-
 StartChar: Idieresisgrave
-Encoding: 57661 57661 938
+Encoding: 57661 57661 917
 Width: 618
 Flags: W
 LayerCount: 2
@@ -33961,44 +33686,20 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Idieresis gravecomb
 EndChar
 
-StartChar: idieresisgrave
-Encoding: 57662 57662 939
-Width: 548
-Flags: W
-LayerCount: 2
-Fore
-Refer: 175 239 N 1 0 0 1 0 0 2
-Refer: 510 715 N 1 0 0 1 -150 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" idieresis gravecomb
-EndChar
-
 StartChar: Itildemacron
-Encoding: 57663 57663 940
+Encoding: 57663 57663 918
 Width: 618
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1074 57372 N 1 0 0 1 7 0 2
+Refer: 989 57372 N 1 0 0 1 7 0 2
 Refer: 42 73 N 1 0 0 1 0 0 2
 Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Itilde macroncomb
 EndChar
 
-StartChar: itildemacron
-Encoding: 57664 57664 941
-Width: 548
-Flags: W
-LayerCount: 2
-Fore
-Refer: 551 772 S 1 0 0 1 810 344 2
-Refer: 233 297 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" itilde macroncomb
-EndChar
-
 StartChar: Idieresiscaron
-Encoding: 57665 57665 942
+Encoding: 57665 57665 919
 Width: 618
 Flags: W
 LayerCount: 2
@@ -34009,20 +33710,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Idieresis caroncomb
 EndChar
 
-StartChar: idieresiscaron
-Encoding: 57666 57666 943
-Width: 548
-Flags: W
-LayerCount: 2
-Fore
-Refer: 175 239 N 1 0 0 1 0 0 2
-Refer: 506 711 N 1 0 0 1 -76 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" idieresis caroncomb
-EndChar
-
 StartChar: Idieresiscircumflex
-Encoding: 57667 57667 944
+Encoding: 57667 57667 920
 Width: 618
 Flags: W
 LayerCount: 2
@@ -34033,22 +33722,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Idieresis circumflexcomb
 EndChar
 
-StartChar: idieresiscircumflex
-Encoding: 57668 57668 945
-Width: 548
-Flags: W
-HStem: 1303 336
-VStem: -13 607
-LayerCount: 2
-Fore
-Refer: 549 770 N 1 0 0 1 811 283 2
-Refer: 175 239 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" idieresis circumflexcomb
-EndChar
-
 StartChar: Otildegrave
-Encoding: 57669 57669 946
+Encoding: 57669 57669 921
 Width: 1312
 Flags: W
 LayerCount: 2
@@ -34059,20 +33734,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Otilde gravecomb
 EndChar
 
-StartChar: otildegrave
-Encoding: 57670 57670 947
-Width: 1116
-Flags: W
-LayerCount: 2
-Fore
-Refer: 181 245 N 1 0 0 1 0 0 2
-Refer: 510 715 S 1 0 0 1 123 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" otilde gravecomb
-EndChar
-
 StartChar: Otildecaron
-Encoding: 57673 57673 948
+Encoding: 57673 57673 922
 Width: 1312
 Flags: W
 LayerCount: 2
@@ -34083,20 +33746,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Otilde caroncomb
 EndChar
 
-StartChar: otildecaron
-Encoding: 57674 57674 949
-Width: 1116
-Flags: W
-LayerCount: 2
-Fore
-Refer: 181 245 N 1 0 0 1 0 0 2
-Refer: 506 711 S 1 0 0 1 197 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" otilde caroncomb
-EndChar
-
 StartChar: Otildecircumflex
-Encoding: 57675 57675 950
+Encoding: 57675 57675 923
 Width: 1312
 Flags: W
 LayerCount: 2
@@ -34107,23 +33758,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Otilde circumflexcomb
 EndChar
 
-StartChar: otildecircumflex
-Encoding: 57676 57676 951
-Width: 1116
-Flags: W
-HStem: 1303 336
-VStem: 257 607
-LayerCount: 2
-Fore
-Refer: 549 770 S 1 0 0 1 1081 283 2
-Refer: 527 732 N 1 0 0 1 133 -19 2
-Refer: 80 111 N 1 0 0 1 0 0 3
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" otilde circumflexcomb
-EndChar
-
 StartChar: Odieresisgrave
-Encoding: 57677 57677 952
+Encoding: 57677 57677 924
 Width: 1312
 Flags: W
 LayerCount: 2
@@ -34134,20 +33770,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Odieresis gravecomb
 EndChar
 
-StartChar: odieresisgrave
-Encoding: 57678 57678 953
-Width: 1116
-Flags: W
-LayerCount: 2
-Fore
-Refer: 182 246 N 1 0 0 1 0 0 2
-Refer: 510 715 S 1 0 0 1 123 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" odieresis gravecomb
-EndChar
-
 StartChar: Odieresisacute
-Encoding: 57679 57679 954
+Encoding: 57679 57679 925
 Width: 1312
 Flags: W
 LayerCount: 2
@@ -34158,20 +33782,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Odieresis acutecomb
 EndChar
 
-StartChar: odieresisacute
-Encoding: 57680 57680 955
-Width: 1116
-Flags: W
-LayerCount: 2
-Fore
-Refer: 182 246 N 1 0 0 1 0 0 2
-Refer: 509 714 N 1 0 0 1 412 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" odieresis acutecomb
-EndChar
-
 StartChar: Odieresiscaron
-Encoding: 57681 57681 956
+Encoding: 57681 57681 926
 Width: 1312
 Flags: W
 LayerCount: 2
@@ -34182,20 +33794,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Odieresis caroncomb
 EndChar
 
-StartChar: odieresiscaron
-Encoding: 57682 57682 957
-Width: 1116
-Flags: W
-LayerCount: 2
-Fore
-Refer: 182 246 N 1 0 0 1 0 0 2
-Refer: 506 711 N 1 0 0 1 197 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" odieresis caroncomb
-EndChar
-
 StartChar: Odieresiscircumflex
-Encoding: 57683 57683 958
+Encoding: 57683 57683 927
 Width: 1312
 Flags: W
 LayerCount: 2
@@ -34206,22 +33806,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Odieresis circumflexcomb
 EndChar
 
-StartChar: odieresiscircumflex
-Encoding: 57684 57684 959
-Width: 1116
-Flags: W
-HStem: 1303 336
-VStem: 257 607
-LayerCount: 2
-Fore
-Refer: 549 770 S 1 0 0 1 1081 283 2
-Refer: 182 246 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" odieresis circumflexcomb
-EndChar
-
 StartChar: Utildegrave
-Encoding: 57685 57685 960
+Encoding: 57685 57685 928
 Width: 1265
 Flags: W
 LayerCount: 2
@@ -34232,44 +33818,20 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Utilde gravecomb
 EndChar
 
-StartChar: utildegrave
-Encoding: 57686 57686 961
-Width: 1126
-Flags: W
-LayerCount: 2
-Fore
-Refer: 296 361 N 1 0 0 1 0 0 2
-Refer: 510 715 S 1 0 0 1 117 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" utilde gravecomb
-EndChar
-
 StartChar: Utildemacron
-Encoding: 57687 57687 962
+Encoding: 57687 57687 929
 Width: 1265
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1074 57372 S 1 0 0 1 400 0 2
+Refer: 989 57372 S 1 0 0 1 400 0 2
 Refer: 54 85 N 1 0 0 1 0 0 2
 Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Utilde macroncomb
 EndChar
 
-StartChar: utildemacron
-Encoding: 57688 57688 963
-Width: 1126
-Flags: W
-LayerCount: 2
-Fore
-Refer: 551 772 S 1 0 0 1 1095 344 2
-Refer: 296 361 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" utilde macroncomb
-EndChar
-
 StartChar: Utildecaron
-Encoding: 57689 57689 964
+Encoding: 57689 57689 930
 Width: 1265
 Flags: W
 LayerCount: 2
@@ -34280,20 +33842,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Utilde caroncomb
 EndChar
 
-StartChar: utildecaron
-Encoding: 57690 57690 965
-Width: 1126
-Flags: W
-LayerCount: 2
-Fore
-Refer: 296 361 N 1 0 0 1 0 0 2
-Refer: 506 711 S 1 0 0 1 186 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" utilde caroncomb
-EndChar
-
 StartChar: Utildecircumflex
-Encoding: 57691 57691 966
+Encoding: 57691 57691 931
 Width: 1265
 Flags: W
 LayerCount: 2
@@ -34304,23 +33854,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Utilde circumflexcomb
 EndChar
 
-StartChar: utildecircumflex
-Encoding: 57692 57692 967
-Width: 1126
-Flags: W
-HStem: 1303 336
-VStem: 257 607
-LayerCount: 2
-Fore
-Refer: 549 770 S 1 0 0 1 1081 283 2
-Refer: 527 732 N 1 0 0 1 127 -19 2
-Refer: 86 117 N 1 0 0 1 0 0 3
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" utilde circumflexcomb
-EndChar
-
 StartChar: Udieresiscircumflex
-Encoding: 57693 57693 968
+Encoding: 57693 57693 932
 Width: 1265
 Flags: W
 LayerCount: 2
@@ -34331,22 +33866,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Udieresis circumflexcomb
 EndChar
 
-StartChar: udieresiscircumflex
-Encoding: 57694 57694 969
-Width: 1126
-Flags: W
-HStem: 1303 336
-VStem: 257 607
-LayerCount: 2
-Fore
-Refer: 549 770 S 1 0 0 1 1081 283 2
-Refer: 188 252 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" udieresis circumflexcomb
-EndChar
-
 StartChar: Alphatildegrave
-Encoding: 57695 57695 970
+Encoding: 57695 57695 933
 Width: 1312
 Flags: W
 LayerCount: 2
@@ -34357,21 +33878,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Alphalatin tildecomb gravecomb
 EndChar
 
-StartChar: alphatildegrave
-Encoding: 57696 57696 971
-Width: 1105
-Flags: W
-LayerCount: 2
-Fore
-Refer: 510 715 N 1 0 0 1 96 281 2
-Refer: 527 732 S 1 0 0 1 107 31 2
-Refer: 405 593 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" alphalatin tildecomb gravecomb
-EndChar
-
 StartChar: Alphatildeacute
-Encoding: 57697 57697 972
+Encoding: 57697 57697 934
 Width: 1312
 Flags: W
 LayerCount: 2
@@ -34382,21 +33890,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Alphalatin tildecomb acutecomb
 EndChar
 
-StartChar: alphatildeacute
-Encoding: 57698 57698 973
-Width: 1105
-Flags: W
-LayerCount: 2
-Fore
-Refer: 509 714 N 1 0 0 1 385 281 2
-Refer: 405 593 N 1 0 0 1 0 0 2
-Refer: 527 732 N 1 0 0 1 107 31 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" alphalatin tildecomb acutecomb
-EndChar
-
 StartChar: Alphatildecaron
-Encoding: 57699 57699 974
+Encoding: 57699 57699 935
 Width: 1312
 Flags: W
 LayerCount: 2
@@ -34407,21 +33902,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Alphalatin tildecomb caroncomb
 EndChar
 
-StartChar: alphatildecaron
-Encoding: 57700 57700 975
-Width: 1105
-Flags: W
-LayerCount: 2
-Fore
-Refer: 506 711 N 1 0 0 1 170 281 2
-Refer: 405 593 N 1 0 0 1 0 0 2
-Refer: 527 732 N 1 0 0 1 107 31 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" alphalatin tildecomb caroncomb
-EndChar
-
 StartChar: Alphatildecircumflex
-Encoding: 57701 57701 976
+Encoding: 57701 57701 936
 Width: 1312
 Flags: W
 LayerCount: 2
@@ -34432,23 +33914,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Alphalatin tildecomb circumflexcomb
 EndChar
 
-StartChar: alphatildecircumflex
-Encoding: 57702 57702 977
-Width: 1105
-Flags: W
-HStem: 1303 336
-VStem: 238 607
-LayerCount: 2
-Fore
-Refer: 549 770 S 1 0 0 1 1062 283 2
-Refer: 527 732 N 1 0 0 1 107 -19 2
-Refer: 405 593 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" alphalatin tildecomb circumflexcomb
-EndChar
-
 StartChar: Alphadieresisgrave
-Encoding: 57703 57703 978
+Encoding: 57703 57703 937
 Width: 1312
 Flags: W
 LayerCount: 2
@@ -34459,21 +33926,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Alphalatin dieresiscomb gravecomb
 EndChar
 
-StartChar: alphadieresisgrave
-Encoding: 57704 57704 979
-Width: 1105
-Flags: W
-LayerCount: 2
-Fore
-Refer: 104 168 N 1 0 0 1 128 31 2
-Refer: 405 593 N 1 0 0 1 0 0 2
-Refer: 510 715 S 1 0 0 1 96 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" alphalatin dieresiscomb gravecomb
-EndChar
-
 StartChar: Alphadieresisacute
-Encoding: 57705 57705 980
+Encoding: 57705 57705 938
 Width: 1312
 Flags: W
 LayerCount: 2
@@ -34484,21 +33938,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Alphalatin dieresiscomb acutecomb
 EndChar
 
-StartChar: alphadieresisacute
-Encoding: 57706 57706 981
-Width: 1105
-Flags: W
-LayerCount: 2
-Fore
-Refer: 104 168 N 1 0 0 1 128 31 2
-Refer: 405 593 N 1 0 0 1 0 0 2
-Refer: 509 714 S 1 0 0 1 385 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" alphalatin dieresiscomb acutecomb
-EndChar
-
 StartChar: Alphadieresiscaron
-Encoding: 57707 57707 982
+Encoding: 57707 57707 939
 Width: 1312
 Flags: W
 LayerCount: 2
@@ -34509,21 +33950,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Alphalatin dieresiscomb caroncomb
 EndChar
 
-StartChar: alphadieresiscaron
-Encoding: 57708 57708 983
-Width: 1105
-Flags: W
-LayerCount: 2
-Fore
-Refer: 104 168 N 1 0 0 1 128 31 2
-Refer: 405 593 N 1 0 0 1 0 0 2
-Refer: 506 711 S 1 0 0 1 170 281 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" alphalatin dieresiscomb caroncomb
-EndChar
-
 StartChar: Alphadieresiscircumflex
-Encoding: 57709 57709 984
+Encoding: 57709 57709 940
 Width: 1312
 Flags: W
 LayerCount: 2
@@ -34534,23 +33962,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Alphalatin dieresiscomb circumflexcomb
 EndChar
 
-StartChar: alphadieresiscircumflex
-Encoding: 57710 57710 985
-Width: 1105
-Flags: W
-HStem: 1303 336
-VStem: 238 607
-LayerCount: 2
-Fore
-Refer: 549 770 N 1 0 0 1 1062 283 2
-Refer: 104 168 N 1 0 0 1 128 31 2
-Refer: 405 593 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" Alphalatin dieresiscomb circumflexcomb
-EndChar
-
 StartChar: Eopentildegrave
-Encoding: 57711 57711 986
+Encoding: 57711 57711 941
 Width: 1069
 Flags: W
 LayerCount: 2
@@ -34561,21 +33974,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eopen tildecomb gravecomb
 EndChar
 
-StartChar: eopentildegrave
-Encoding: 57712 57712 987
-Width: 927
-Flags: W
-LayerCount: 2
-Fore
-Refer: 510 715 S 1 0 0 1 61 281 2
-Refer: 527 732 N 1 0 0 1 71 31 2
-Refer: 415 603 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" eopen tildecomb gravecomb
-EndChar
-
 StartChar: Eopentildeacute
-Encoding: 57713 57713 988
+Encoding: 57713 57713 942
 Width: 1069
 Flags: W
 LayerCount: 2
@@ -34586,21 +33986,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eopen tildecomb acutecomb
 EndChar
 
-StartChar: eopentildeacute
-Encoding: 57714 57714 989
-Width: 927
-Flags: W
-LayerCount: 2
-Fore
-Refer: 509 714 S 1 0 0 1 350 281 2
-Refer: 527 732 N 1 0 0 1 71 31 2
-Refer: 415 603 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" eopen tildecomb acutecomb
-EndChar
-
 StartChar: Eopentildecaron
-Encoding: 57715 57715 990
+Encoding: 57715 57715 943
 Width: 1069
 Flags: W
 LayerCount: 2
@@ -34611,21 +33998,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eopen tildecomb caroncomb
 EndChar
 
-StartChar: eopentildecaron
-Encoding: 57716 57716 991
-Width: 927
-Flags: W
-LayerCount: 2
-Fore
-Refer: 506 711 S 1 0 0 1 135 281 2
-Refer: 527 732 N 1 0 0 1 71 31 2
-Refer: 415 603 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" eopen tildecomb caroncomb
-EndChar
-
 StartChar: Eopentildecircumflex
-Encoding: 57717 57717 992
+Encoding: 57717 57717 944
 Width: 1069
 Flags: W
 LayerCount: 2
@@ -34636,23 +34010,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eopen tildecomb circumflexcomb
 EndChar
 
-StartChar: eopentildecircumflex
-Encoding: 57718 57718 993
-Width: 927
-Flags: W
-HStem: 1303 336
-VStem: 199 607
-LayerCount: 2
-Fore
-Refer: 549 770 S 1 0 0 1 1023 283 2
-Refer: 527 732 N 1 0 0 1 71 -19 2
-Refer: 415 603 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" eopen tildecomb circumflexcomb
-EndChar
-
 StartChar: Eopendieresisgrave
-Encoding: 57719 57719 994
+Encoding: 57719 57719 945
 Width: 1069
 Flags: W
 LayerCount: 2
@@ -34663,21 +34022,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eopen dieresiscomb gravecomb
 EndChar
 
-StartChar: eopendieresisgrave
-Encoding: 57720 57720 995
-Width: 927
-Flags: W
-LayerCount: 2
-Fore
-Refer: 510 715 N 1 0 0 1 61 281 2
-Refer: 104 168 S 1 0 0 1 88 31 2
-Refer: 415 603 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" eopen dieresiscomb gravecomb
-EndChar
-
 StartChar: Eopendieresisacute
-Encoding: 57721 57721 996
+Encoding: 57721 57721 946
 Width: 1069
 Flags: W
 LayerCount: 2
@@ -34688,21 +34034,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eopen dieresiscomb acutecomb
 EndChar
 
-StartChar: eopendieresisacute
-Encoding: 57722 57722 997
-Width: 927
-Flags: W
-LayerCount: 2
-Fore
-Refer: 509 714 N 1 0 0 1 350 281 2
-Refer: 104 168 N 1 0 0 1 88 31 2
-Refer: 415 603 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" eopen dieresiscomb acutecomb
-EndChar
-
 StartChar: Eopendieresiscaron
-Encoding: 57723 57723 998
+Encoding: 57723 57723 947
 Width: 1069
 Flags: W
 LayerCount: 2
@@ -34713,21 +34046,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eopen dieresiscomb caroncomb
 EndChar
 
-StartChar: eopendieresiscaron
-Encoding: 57724 57724 999
-Width: 927
-Flags: W
-LayerCount: 2
-Fore
-Refer: 506 711 N 1 0 0 1 135 281 2
-Refer: 104 168 N 1 0 0 1 88 31 2
-Refer: 415 603 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" eopen dieresiscomb caroncomb
-EndChar
-
 StartChar: Eopendieresiscircumflex
-Encoding: 57725 57725 1000
+Encoding: 57725 57725 948
 Width: 1069
 Flags: W
 LayerCount: 2
@@ -34738,23 +34058,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eopen dieresiscomb circumflexcomb
 EndChar
 
-StartChar: eopendieresiscircumflex
-Encoding: 57726 57726 1001
-Width: 927
-Flags: W
-HStem: 1303 336
-VStem: 199 607
-LayerCount: 2
-Fore
-Refer: 549 770 N 1 0 0 1 1023 283 2
-Refer: 104 168 N 1 0 0 1 88 31 2
-Refer: 415 603 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" eopen dieresiscomb circumflexcomb
-EndChar
-
 StartChar: Eturnedtildegrave
-Encoding: 57727 57727 1002
+Encoding: 57727 57727 949
 Width: 1038
 Flags: W
 LayerCount: 2
@@ -34765,22 +34070,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eturned tildecomb gravecomb
 EndChar
 
-StartChar: eturnedtildegrave
-Encoding: 57728 57728 1003
-Width: 1009
-Flags: W
-LayerCount: 2
-Fore
-Refer: 510 715 S 1 0 0 1 61 281 2
-Refer: 527 732 N 1 0 0 1 71 31 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" schwa tildecomb gravecomb
-Ligature2: "'ccmp' Glyph Composition subtable" eturned tildecomb gravecomb
-EndChar
-
 StartChar: Eturnedtildeacute
-Encoding: 57729 57729 1004
+Encoding: 57729 57729 950
 Width: 1038
 Flags: W
 LayerCount: 2
@@ -34791,22 +34082,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eturned tildecomb acutecomb
 EndChar
 
-StartChar: eturnedtildeacute
-Encoding: 57730 57730 1005
-Width: 1009
-Flags: W
-LayerCount: 2
-Fore
-Refer: 509 714 S 1 0 0 1 350 281 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Refer: 527 732 N 1 0 0 1 71 31 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" schwa tildecomb acutecomb
-Ligature2: "'ccmp' Glyph Composition subtable" eturned tildecomb acutecomb
-EndChar
-
 StartChar: Eturnedtildecaron
-Encoding: 57731 57731 1006
+Encoding: 57731 57731 951
 Width: 1038
 Flags: W
 LayerCount: 2
@@ -34817,22 +34094,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eturned tildecomb caroncomb
 EndChar
 
-StartChar: eturnedtildecaron
-Encoding: 57732 57732 1007
-Width: 1009
-Flags: W
-LayerCount: 2
-Fore
-Refer: 506 711 N 1 0 0 1 135 281 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Refer: 527 732 N 1 0 0 1 71 31 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" schwa tildecomb caroncomb
-Ligature2: "'ccmp' Glyph Composition subtable" eturned tildecomb caroncomb
-EndChar
-
 StartChar: Eturnedtildecircumflex
-Encoding: 57733 57733 1008
+Encoding: 57733 57733 952
 Width: 1038
 Flags: W
 LayerCount: 2
@@ -34843,23 +34106,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eturned tildecomb circumflexcomb
 EndChar
 
-StartChar: eturnedtildecircumflex
-Encoding: 57734 57734 1009
-Width: 1009
-Flags: W
-HStem: 1303 336
-VStem: 199 607
-LayerCount: 2
-Fore
-Refer: 549 770 N 1 0 0 1 1023 283 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Refer: 527 732 N 1 0 0 1 71 -19 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" eturned tildecomb circumflexcomb
-EndChar
-
 StartChar: Eturneddieresisgrave
-Encoding: 57735 57735 1010
+Encoding: 57735 57735 953
 Width: 1038
 Flags: W
 LayerCount: 2
@@ -34870,22 +34118,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eturned dieresiscomb gravecomb
 EndChar
 
-StartChar: eturneddieresisgrave
-Encoding: 57736 57736 1011
-Width: 1009
-Flags: W
-LayerCount: 2
-Fore
-Refer: 510 715 N 1 0 0 1 61 281 2
-Refer: 104 168 N 1 0 0 1 88 31 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" schwa dieresiscomb gravecomb
-Ligature2: "'ccmp' Glyph Composition subtable" eturned dieresiscomb gravecomb
-EndChar
-
 StartChar: Eturneddieresisacute
-Encoding: 57737 57737 1012
+Encoding: 57737 57737 954
 Width: 1038
 Flags: W
 LayerCount: 2
@@ -34896,22 +34130,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eturned dieresiscomb acutecomb
 EndChar
 
-StartChar: eturneddieresisacute
-Encoding: 57738 57738 1013
-Width: 1009
-Flags: W
-LayerCount: 2
-Fore
-Refer: 509 714 N 1 0 0 1 350 281 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Refer: 104 168 N 1 0 0 1 88 31 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" schwa dieresiscomb acutecomb
-Ligature2: "'ccmp' Glyph Composition subtable" eturned dieresiscomb acutecomb
-EndChar
-
 StartChar: Eturneddieresiscaron
-Encoding: 57739 57739 1014
+Encoding: 57739 57739 955
 Width: 1038
 Flags: W
 LayerCount: 2
@@ -34922,21 +34142,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eturned dieresiscomb caroncomb
 EndChar
 
-StartChar: eturneddieresiscaron
-Encoding: 57740 57740 1015
-Width: 1009
-Flags: W
-LayerCount: 2
-Fore
-Refer: 506 711 N 1 0 0 1 135 281 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Refer: 104 168 N 1 0 0 1 88 31 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" eturned dieresiscomb caroncomb
-EndChar
-
 StartChar: Eturneddieresiscircumflex
-Encoding: 57741 57741 1016
+Encoding: 57741 57741 956
 Width: 1038
 Flags: W
 LayerCount: 2
@@ -34947,24 +34154,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eturned dieresiscomb circumflexcomb
 EndChar
 
-StartChar: eturneddieresiscircumflex
-Encoding: 57742 57742 1017
-Width: 1009
-Flags: W
-HStem: 1303 336
-VStem: 199 607
-LayerCount: 2
-Fore
-Refer: 549 770 S 1 0 0 1 1023 283 2
-Refer: 375 477 N 1 0 0 1 0 0 2
-Refer: 104 168 N 1 0 0 1 88 31 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" schwa dieresiscomb circumflexcomb
-Ligature2: "'ccmp' Glyph Composition subtable" eturned dieresiscomb circumflexcomb
-EndChar
-
 StartChar: Schwatildegrave
-Encoding: 57743 57743 1018
+Encoding: 57743 57743 957
 Width: 1269
 Flags: W
 LayerCount: 2
@@ -34976,7 +34167,7 @@ Ligature2: "'ccmp' Glyph Composition subtable" Schwa tildecomb gravecomb
 EndChar
 
 StartChar: Schwatildeacute
-Encoding: 57744 57744 1019
+Encoding: 57744 57744 958
 Width: 1269
 Flags: W
 LayerCount: 2
@@ -34988,7 +34179,7 @@ Ligature2: "'ccmp' Glyph Composition subtable" Schwa tildecomb acutecomb
 EndChar
 
 StartChar: Schwatildecaron
-Encoding: 57745 57745 1020
+Encoding: 57745 57745 959
 Width: 1269
 Flags: W
 LayerCount: 2
@@ -35000,7 +34191,7 @@ Ligature2: "'ccmp' Glyph Composition subtable" Schwa tildecomb caroncomb
 EndChar
 
 StartChar: Schwatildecircumflex
-Encoding: 57746 57746 1021
+Encoding: 57746 57746 960
 Width: 1269
 Flags: W
 LayerCount: 2
@@ -35012,7 +34203,7 @@ Ligature2: "'ccmp' Glyph Composition subtable" Schwa tildecomb circumflexcomb
 EndChar
 
 StartChar: Schwadieresisgrave
-Encoding: 57747 57747 1022
+Encoding: 57747 57747 961
 Width: 1269
 Flags: W
 LayerCount: 2
@@ -35024,7 +34215,7 @@ Ligature2: "'ccmp' Glyph Composition subtable" Schwa dieresiscomb gravecomb
 EndChar
 
 StartChar: Schwadieresisacute
-Encoding: 57748 57748 1023
+Encoding: 57748 57748 962
 Width: 1269
 Flags: W
 LayerCount: 2
@@ -35036,7 +34227,7 @@ Ligature2: "'ccmp' Glyph Composition subtable" Schwa dieresiscomb acutecomb
 EndChar
 
 StartChar: Schwadieresiscaron
-Encoding: 57749 57749 1024
+Encoding: 57749 57749 963
 Width: 1269
 Flags: W
 LayerCount: 2
@@ -35048,7 +34239,7 @@ Ligature2: "'ccmp' Glyph Composition subtable" Schwa dieresiscomb caroncomb
 EndChar
 
 StartChar: Schwadieresiscircumflex
-Encoding: 57750 57750 1025
+Encoding: 57750 57750 964
 Width: 1269
 Flags: W
 LayerCount: 2
@@ -35060,7 +34251,7 @@ Ligature2: "'ccmp' Glyph Composition subtable" Schwa dieresiscomb circumflexcomb
 EndChar
 
 StartChar: Iotatildegrave
-Encoding: 57751 57751 1026
+Encoding: 57751 57751 965
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35071,21 +34262,8 @@ LCarets2: 2 0 0
 Ligature2: "'ccmp' Glyph Composition subtable" Iotalatin tildecomb gravecomb
 EndChar
 
-StartChar: iotatildegrave
-Encoding: 57752 57752 1027
-Width: 650
-Flags: W
-LayerCount: 2
-Fore
-Refer: 510 715 N 1 0 0 1 -180 281 2
-Refer: 527 732 N 1 0 0 1 -169 31 2
-Refer: 429 617 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
-Ligature2: "'ccmp' Glyph Composition subtable" iotalatin tildecomb gravecomb
-EndChar
-
 StartChar: Iotatildeacute
-Encoding: 57753 57753 1028
+Encoding: 57753 57753 966
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35095,20 +34273,8 @@ Refer: 333 406 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition subtable" Iotalatin tildecomb acutecomb
 EndChar
 
-StartChar: iotatildeacute
-Encoding: 57754 57754 1029
-Width: 650
-Flags: W
-LayerCount: 2
-Fore
-Refer: 509 714 N 1 0 0 1 109 281 2
-Refer: 527 732 N 1 0 0 1 -169 31 2
-Refer: 429 617 N 1 0 0 1 0 0 2
-Ligature2: "'ccmp' Glyph Composition subtable" iotalatin tildecomb acutecomb
-EndChar
-
 StartChar: Iotatildecaron
-Encoding: 57755 57755 1030
+Encoding: 57755 57755 967
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35118,20 +34284,8 @@ Refer: 333 406 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition subtable" Iotalatin tildecomb caroncomb
 EndChar
 
-StartChar: iotatildecaron
-Encoding: 57756 57756 1031
-Width: 650
-Flags: W
-LayerCount: 2
-Fore
-Refer: 506 711 N 1 0 0 1 -106 281 2
-Refer: 527 732 N 1 0 0 1 -169 31 2
-Refer: 429 617 N 1 0 0 1 0 0 2
-Ligature2: "'ccmp' Glyph Composition subtable" iotalatin tildecomb caroncomb
-EndChar
-
 StartChar: Iotatildecircumflex
-Encoding: 57757 57757 1032
+Encoding: 57757 57757 968
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35141,22 +34295,8 @@ Refer: 333 406 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition subtable" Iotalatin tildecomb circumflexcomb
 EndChar
 
-StartChar: iotatildecircumflex
-Encoding: 57758 57758 1033
-Width: 650
-Flags: W
-HStem: 1303 336
-VStem: -40 607
-LayerCount: 2
-Fore
-Refer: 549 770 S 1 0 0 1 784 283 2
-Refer: 527 732 N 1 0 0 1 -169 -19 2
-Refer: 429 617 N 1 0 0 1 0 0 2
-Ligature2: "'ccmp' Glyph Composition subtable" iotalatin tildecomb circumflexcomb
-EndChar
-
 StartChar: Iotadieresisgrave
-Encoding: 57759 57759 1034
+Encoding: 57759 57759 969
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35166,20 +34306,8 @@ Refer: 333 406 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition subtable" Iotalatin dieresiscomb gravecomb
 EndChar
 
-StartChar: iotadieresisgrave
-Encoding: 57760 57760 1035
-Width: 650
-Flags: W
-LayerCount: 2
-Fore
-Refer: 510 715 N 1 0 0 1 -180 281 2
-Refer: 104 168 N 1 0 0 1 -153 31 2
-Refer: 429 617 N 1 0 0 1 0 0 2
-Ligature2: "'ccmp' Glyph Composition subtable" iotalatin dieresiscomb gravecomb
-EndChar
-
 StartChar: Iotadieresisacute
-Encoding: 57761 57761 1036
+Encoding: 57761 57761 970
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35189,20 +34317,8 @@ Refer: 333 406 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition subtable" Iotalatin dieresiscomb acutecomb
 EndChar
 
-StartChar: iotadieresisacute
-Encoding: 57762 57762 1037
-Width: 650
-Flags: W
-LayerCount: 2
-Fore
-Refer: 509 714 N 1 0 0 1 109 281 2
-Refer: 429 617 N 1 0 0 1 0 0 2
-Refer: 104 168 N 1 0 0 1 -153 31 2
-Ligature2: "'ccmp' Glyph Composition subtable" iotalatin dieresiscomb acutecomb
-EndChar
-
 StartChar: Iotadieresiscaron
-Encoding: 57763 57763 1038
+Encoding: 57763 57763 971
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35212,20 +34328,8 @@ Refer: 333 406 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition subtable" Iotalatin dieresiscomb caroncomb
 EndChar
 
-StartChar: iotadieresiscaron
-Encoding: 57764 57764 1039
-Width: 650
-Flags: W
-LayerCount: 2
-Fore
-Refer: 506 711 N 1 0 0 1 -106 281 2
-Refer: 429 617 N 1 0 0 1 0 0 2
-Refer: 104 168 N 1 0 0 1 -153 31 2
-Ligature2: "'ccmp' Glyph Composition subtable" iotalatin dieresiscomb caroncomb
-EndChar
-
 StartChar: Iotadieresiscircumflex
-Encoding: 57765 57765 1040
+Encoding: 57765 57765 972
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35235,22 +34339,8 @@ Refer: 333 406 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition subtable" Iotalatin dieresiscomb circumflexcomb
 EndChar
 
-StartChar: iotadieresiscircumflex
-Encoding: 57766 57766 1041
-Width: 650
-Flags: W
-HStem: 1303 336
-VStem: -40 607
-LayerCount: 2
-Fore
-Refer: 549 770 S 1 0 0 1 784 283 2
-Refer: 429 617 N 1 0 0 1 0 0 2
-Refer: 104 168 N 1 0 0 1 -153 31 2
-Ligature2: "'ccmp' Glyph Composition subtable" iotalatin dieresiscomb circumflexcomb
-EndChar
-
 StartChar: Istroketildegrave
-Encoding: 57767 57767 1042
+Encoding: 57767 57767 973
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35260,21 +34350,8 @@ Refer: 334 407 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition subtable" Istroke tildecomb gravecomb
 EndChar
 
-StartChar: istroketildegrave
-Encoding: 57768 57768 1043
-Width: 651
-Flags: W
-LayerCount: 2
-Fore
-Refer: 510 715 S 1 0 0 1 -94 281 2
-Refer: 527 732 N 1 0 0 1 -83 31 2
-Refer: 862 57601 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" istroke tildecomb gravecomb
-EndChar
-
 StartChar: Istroketildeacute
-Encoding: 57769 57769 1044
+Encoding: 57769 57769 974
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35284,21 +34361,8 @@ Refer: 334 407 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition subtable" Istroke tildecomb acutecomb
 EndChar
 
-StartChar: istroketildeacute
-Encoding: 57770 57770 1045
-Width: 651
-Flags: W
-LayerCount: 2
-Fore
-Refer: 509 714 S 1 0 0 1 195 281 2
-Refer: 527 732 N 1 0 0 1 -83 31 2
-Refer: 862 57601 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" istroke tildecomb acutecomb
-EndChar
-
 StartChar: Istroketildecaron
-Encoding: 57771 57771 1046
+Encoding: 57771 57771 975
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35308,21 +34372,8 @@ Refer: 334 407 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition subtable" Istroke tildecomb caroncomb
 EndChar
 
-StartChar: istroketildecaron
-Encoding: 57772 57772 1047
-Width: 651
-Flags: W
-LayerCount: 2
-Fore
-Refer: 506 711 S 1 0 0 1 -20 281 2
-Refer: 527 732 N 1 0 0 1 -83 31 2
-Refer: 862 57601 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" istroke tildecomb caroncomb
-EndChar
-
 StartChar: Istroketildecircumflex
-Encoding: 57773 57773 1048
+Encoding: 57773 57773 976
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35332,23 +34383,8 @@ Refer: 334 407 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition subtable" Istroke tildecomb circumflexcomb
 EndChar
 
-StartChar: istroketildecircumflex
-Encoding: 57774 57774 1049
-Width: 651
-Flags: W
-HStem: 0 43<119 230.923 449.077 561> 498 70<120 248 432 561> 786 48<119 214.753> 902 20<408.5 432> 1303 336
-VStem: 44 607 248 184<52.0088 498 568 779.398>
-LayerCount: 2
-Fore
-Refer: 549 770 S 1 0 0 1 868 283 2
-Refer: 527 732 N 1 0 0 1 -83 -19 2
-Refer: 862 57601 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" istroke tildecomb circumflexcomb
-EndChar
-
 StartChar: Istrokedieresisgrave
-Encoding: 57775 57775 1050
+Encoding: 57775 57775 977
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35358,21 +34394,8 @@ Refer: 334 407 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition subtable" Istroke dieresiscomb gravecomb
 EndChar
 
-StartChar: istrokedieresisgrave
-Encoding: 57776 57776 1051
-Width: 651
-Flags: W
-LayerCount: 2
-Fore
-Refer: 510 715 N 1 0 0 1 -94 281 2
-Refer: 104 168 N 1 0 0 1 -67 31 2
-Refer: 862 57601 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" istroke dieresiscomb gravecomb
-EndChar
-
 StartChar: Istrokedieresisacute
-Encoding: 57777 57777 1052
+Encoding: 57777 57777 978
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35382,21 +34405,8 @@ Refer: 334 407 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition subtable" Istroke dieresiscomb acutecomb
 EndChar
 
-StartChar: istrokedieresisacute
-Encoding: 57778 57778 1053
-Width: 651
-Flags: W
-LayerCount: 2
-Fore
-Refer: 509 714 S 1 0 0 1 195 281 2
-Refer: 104 168 N 1 0 0 1 -67 31 2
-Refer: 862 57601 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" istroke dieresiscomb acutecomb
-EndChar
-
 StartChar: Istrokedieresiscaron
-Encoding: 57779 57779 1054
+Encoding: 57779 57779 979
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35406,21 +34416,8 @@ Refer: 334 407 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition subtable" Istroke dieresiscomb caroncomb
 EndChar
 
-StartChar: istrokedieresiscaron
-Encoding: 57780 57780 1055
-Width: 651
-Flags: W
-LayerCount: 2
-Fore
-Refer: 506 711 N 1 0 0 1 -20 281 2
-Refer: 104 168 N 1 0 0 1 -67 31 2
-Refer: 862 57601 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" istroke dieresiscomb caroncomb
-EndChar
-
 StartChar: Istrokedieresiscircumflex
-Encoding: 57781 57781 1056
+Encoding: 57781 57781 980
 Width: 673
 Flags: W
 LayerCount: 2
@@ -35430,23 +34427,8 @@ Refer: 334 407 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Glyph Composition subtable" Istroke dieresiscomb circumflexcomb
 EndChar
 
-StartChar: istrokedieresiscircumflex
-Encoding: 57782 57782 1057
-Width: 651
-Flags: W
-HStem: 0 43<119 230.923 449.077 561> 498 70<120 248 432 561> 786 48<119 214.753> 902 20<408.5 432> 1303 336
-VStem: 44 607 248 184<52.0088 498 568 779.398>
-LayerCount: 2
-Fore
-Refer: 549 770 N 1 0 0 1 868 283 2
-Refer: 104 168 N 1 0 0 1 -67 31 2
-Refer: 862 57601 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" istroke dieresiscomb circumflexcomb
-EndChar
-
 StartChar: Oopentildegrave
-Encoding: 57783 57783 1058
+Encoding: 57783 57783 981
 Width: 1187
 Flags: W
 LayerCount: 2
@@ -35457,21 +34439,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Oopen tildecomb gravecomb
 EndChar
 
-StartChar: oopentildegrave
-Encoding: 57784 57784 1059
-Width: 997
-Flags: W
-LayerCount: 2
-Fore
-Refer: 510 715 S 1 0 0 1 21 281 2
-Refer: 527 732 N 1 0 0 1 32 31 2
-Refer: 408 596 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" oopen tildecomb gravecomb
-EndChar
-
 StartChar: Oopentildeacute
-Encoding: 57785 57785 1060
+Encoding: 57785 57785 982
 Width: 1187
 Flags: W
 LayerCount: 2
@@ -35482,21 +34451,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Oopen tildecomb acutecomb
 EndChar
 
-StartChar: oopentildeacute
-Encoding: 57786 57786 1061
-Width: 997
-Flags: W
-LayerCount: 2
-Fore
-Refer: 509 714 S 1 0 0 1 310 281 2
-Refer: 527 732 N 1 0 0 1 32 31 2
-Refer: 408 596 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" oopen tildecomb acutecomb
-EndChar
-
 StartChar: Oopentildecaron
-Encoding: 57787 57787 1062
+Encoding: 57787 57787 983
 Width: 1187
 Flags: W
 LayerCount: 2
@@ -35507,21 +34463,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Oopen tildecomb caroncomb
 EndChar
 
-StartChar: oopentildecaron
-Encoding: 57788 57788 1063
-Width: 997
-Flags: W
-LayerCount: 2
-Fore
-Refer: 506 711 N 1 0 0 1 95 281 2
-Refer: 527 732 N 1 0 0 1 32 31 2
-Refer: 408 596 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" oopen tildecomb caroncomb
-EndChar
-
 StartChar: Oopentildecircumflex
-Encoding: 57789 57789 1064
+Encoding: 57789 57789 984
 Width: 1187
 Flags: W
 LayerCount: 2
@@ -35532,23 +34475,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Oopen tildecomb circumflexcomb
 EndChar
 
-StartChar: oopentildecircumflex
-Encoding: 57790 57790 1065
-Width: 997
-Flags: W
-HStem: 1303 336
-VStem: 161 607
-LayerCount: 2
-Fore
-Refer: 549 770 S 1 0 0 1 985 283 2
-Refer: 527 732 N 1 0 0 1 32 -19 2
-Refer: 408 596 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" oopen tildecomb circumflexcomb
-EndChar
-
 StartChar: Oopendieresisgrave
-Encoding: 57791 57791 1066
+Encoding: 57791 57791 985
 Width: 1187
 Flags: W
 LayerCount: 2
@@ -35559,21 +34487,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Oopen dieresiscomb gravecomb
 EndChar
 
-StartChar: oopendieresisgrave
-Encoding: 57792 57792 1067
-Width: 997
-Flags: W
-LayerCount: 2
-Fore
-Refer: 510 715 N 1 0 0 1 21 281 2
-Refer: 104 168 N 1 0 0 1 53 31 2
-Refer: 408 596 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" oopen dieresiscomb gravecomb
-EndChar
-
 StartChar: Oopendieresisacute
-Encoding: 57793 57793 1068
+Encoding: 57793 57793 986
 Width: 1187
 Flags: W
 LayerCount: 2
@@ -35584,21 +34499,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Oopen dieresiscomb acutecomb
 EndChar
 
-StartChar: oopendieresisacute
-Encoding: 57794 57794 1069
-Width: 997
-Flags: W
-LayerCount: 2
-Fore
-Refer: 509 714 N 1 0 0 1 310 281 2
-Refer: 104 168 N 1 0 0 1 53 31 2
-Refer: 408 596 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" oopen dieresiscomb acutecomb
-EndChar
-
 StartChar: Oopendieresiscaron
-Encoding: 57795 57795 1070
+Encoding: 57795 57795 987
 Width: 1187
 Flags: W
 LayerCount: 2
@@ -35609,21 +34511,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Oopen dieresiscomb caroncomb
 EndChar
 
-StartChar: oopendieresiscaron
-Encoding: 57796 57796 1071
-Width: 997
-Flags: W
-LayerCount: 2
-Fore
-Refer: 506 711 N 1 0 0 1 95 281 2
-Refer: 104 168 N 1 0 0 1 53 31 2
-Refer: 408 596 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" oopen dieresiscomb caroncomb
-EndChar
-
 StartChar: Oopendieresiscircumflex
-Encoding: 57797 57797 1072
+Encoding: 57797 57797 988
 Width: 1187
 Flags: W
 LayerCount: 2
@@ -35634,23 +34523,8 @@ Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Oopen dieresiscomb circumflexcomb
 EndChar
 
-StartChar: oopendieresiscircumflex
-Encoding: 57798 57798 1073
-Width: 997
-Flags: W
-HStem: 1303 336
-VStem: 161 607
-LayerCount: 2
-Fore
-Refer: 549 770 N 1 0 0 1 985 283 2
-Refer: 104 168 N 1 0 0 1 53 31 2
-Refer: 408 596 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" oopen dieresiscomb circumflexcomb
-EndChar
-
 StartChar: uniE01C
-Encoding: 57372 57372 1074
+Encoding: 57372 57372 989
 Width: 610
 Flags: W
 LayerCount: 2
@@ -35661,84 +34535,45 @@ Validated: 1
 EndChar
 
 StartChar: Atildemacron
-Encoding: 57799 57799 1075
+Encoding: 57799 57799 990
 Width: 1118
 Flags: W
 HStem: 1270 94<552.927 813.835> 1348 94<296.015 556.505>
 VStem: 250 39<1270 1319.55> 821 39<1392.45 1442>
 LayerCount: 2
 Fore
-Refer: 1074 57372 N 1 0 0 1 250 0 2
+Refer: 989 57372 N 1 0 0 1 250 0 2
 Refer: 34 65 N 1 0 0 1 0 0 2
 Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Atilde macroncomb
 EndChar
 
-StartChar: atildemacron
-Encoding: 57800 57800 1076
-Width: 989
-Flags: W
-LayerCount: 2
-Fore
-Refer: 551 772 S 1 0 0 1 995 344 2
-Refer: 527 732 N 1 0 0 1 27 -19 2
-Refer: 66 97 N 1 0 0 1 0 0 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" atilde macron
-EndChar
-
 StartChar: Eopentildemacron
-Encoding: 57801 57801 1077
+Encoding: 57801 57801 991
 Width: 1069
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1074 57372 N 1 0 0 1 225 0 2
+Refer: 989 57372 N 1 0 0 1 225 0 2
 Refer: 328 400 N 1 0 0 1 0 0 2
 Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Eopen tildecomb macroncomb
 EndChar
 
-StartChar: eopentildemacron
-Encoding: 57802 57802 1078
-Width: 927
-Flags: W
-LayerCount: 2
-Fore
-Refer: 551 772 S 1 0 0 1 1020 344 2
-Refer: 415 603 N 1 0 0 1 0 0 2
-Refer: 527 732 N 1 0 0 1 71 31 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" eopen tildecomb macroncomb
-EndChar
-
 StartChar: Oopentildemacron
-Encoding: 57803 57803 1079
+Encoding: 57803 57803 992
 Width: 1187
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1074 57372 S 1 0 0 1 275 0 2
+Refer: 989 57372 S 1 0 0 1 275 0 2
 Refer: 321 390 N 1 0 0 1 0 0 2
 Validated: 1
 Ligature2: "'ccmp' Glyph Composition subtable" Oopen tildecomb macroncomb
 EndChar
 
-StartChar: oopentildemacron
-Encoding: 57804 57804 1080
-Width: 997
-Flags: W
-LayerCount: 2
-Fore
-Refer: 551 772 N 1 0 0 1 995 344 2
-Refer: 408 596 N 1 0 0 1 0 0 2
-Refer: 527 732 N 1 0 0 1 32 31 2
-Validated: 1
-Ligature2: "'ccmp' Glyph Composition subtable" oopen tildecomb macroncomb
-EndChar
-
 StartChar: uni1E7C
-Encoding: 7804 7804 1081
+Encoding: 7804 7804 993
 Width: 1114
 VWidth: 0
 LayerCount: 2
@@ -35749,7 +34584,7 @@ Validated: 1
 EndChar
 
 StartChar: uni1E7D
-Encoding: 7805 7805 1082
+Encoding: 7805 7805 994
 Width: 989
 VWidth: 0
 LayerCount: 2
@@ -35760,7 +34595,7 @@ Validated: 1
 EndChar
 
 StartChar: uni1E48
-Encoding: 7752 7752 1083
+Encoding: 7752 7752 995
 Width: 1304
 VWidth: 0
 Flags: W
@@ -35772,7 +34607,7 @@ Validated: 1
 EndChar
 
 StartChar: uni1E49
-Encoding: 7753 7753 1084
+Encoding: 7753 7753 996
 Width: 1144
 VWidth: 0
 Flags: W
@@ -35784,7 +34619,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2C7F
-Encoding: 11391 11391 1085
+Encoding: 11391 11391 997
 Width: 1024
 Flags: W
 HStem: -316 63.5<722.229 822.5> 0 61<279 492.68> 1137 61<161.454 686>
@@ -35837,7 +34672,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0240
-Encoding: 576 576 1086
+Encoding: 576 576 998
 Width: 870
 Flags: W
 HStem: -316 63<541.258 737> 840 61<157.454 578>
@@ -35891,7 +34726,7 @@ Validated: 1
 EndChar
 
 StartChar: Btopbar
-Encoding: 386 386 1087
+Encoding: 386 386 999
 Width: 1101
 Flags: W
 LayerCount: 2
@@ -35953,7 +34788,7 @@ Validated: 1
 EndChar
 
 StartChar: uni023F
-Encoding: 575 575 1088
+Encoding: 575 575 1000
 Width: 829
 Flags: W
 HStem: -316 63<612.74 808.5> 205 54<145.184 258.22> 860 62<284.988 518.552> 881 20G<641 688>
@@ -36040,7 +34875,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2C7E
-Encoding: 11390 11390 1089
+Encoding: 11390 11390 1001
 Width: 978
 Flags: W
 HStem: -316 63<655.743 857> -20 69<251.305 383 490 652.355> 246 54<157.789 272.53> 1149 70<352.344 623.731> 1178 20G<737 785.615>
@@ -36132,7 +34967,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1E22
-Encoding: 7714 7714 1090
+Encoding: 7714 7714 1002
 Width: 1331
 VWidth: 0
 LayerCount: 2
@@ -36143,7 +34978,7 @@ Validated: 1
 EndChar
 
 StartChar: uni1E23
-Encoding: 7715 7715 1091
+Encoding: 7715 7715 1003
 Width: 1126
 VWidth: 0
 LayerCount: 2
@@ -36154,7 +34989,7 @@ Validated: 1
 EndChar
 
 StartChar: Aogonek.ss01
-Encoding: 57472 57472 1092
+Encoding: 57472 57472 1004
 Width: 1118
 Flags: W
 AnchorPoint: "top" 565 1270 basechar 0
@@ -36166,7 +35001,7 @@ Validated: 1
 EndChar
 
 StartChar: aogonek.ss01
-Encoding: 57473 57473 1093
+Encoding: 57473 57473 1005
 Width: 989
 UnlinkRmOvrlpSave: 1
 Flags: W
@@ -36180,7 +35015,7 @@ Refer: 587 808 S 1 0 0 1 1009 0 2
 EndChar
 
 StartChar: Eogonek.ss01
-Encoding: 57474 57474 1094
+Encoding: 57474 57474 1006
 Width: 1038
 UnlinkRmOvrlpSave: 1
 Flags: W
@@ -36194,7 +35029,7 @@ Refer: 587 808 N 1 0 0 1 1173 0 2
 EndChar
 
 StartChar: uogonek.ss01
-Encoding: 57475 57475 1095
+Encoding: 57475 57475 1007
 Width: 1126
 UnlinkRmOvrlpSave: 1
 Flags: W
@@ -36208,7 +35043,7 @@ Refer: 86 117 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: dhook.ss02
-Encoding: 57476 57476 1096
+Encoding: 57476 57476 1008
 Width: 1099
 Flags: W
 HStem: -20 69<430.469 684.19> 68 47<962.192 1057> 860 70<437.898 715.375> 1229 61<600.637 702.385>
@@ -36254,7 +35089,7 @@ Validated: 1
 EndChar
 
 StartChar: g.ss05
-Encoding: 57477 57477 1097
+Encoding: 57477 57477 1009
 Width: 1080
 Flags: W
 HStem: -410 81<370.093 763.293> 0 162<324.529 787.826> 360 61<438.202 634.1> 824 76<828 976> 858 64<391.115 607.671>
@@ -36344,7 +35179,7 @@ Validated: 1
 EndChar
 
 StartChar: gcircumflex.ss05
-Encoding: 57478 57478 1098
+Encoding: 57478 57478 1010
 Width: 1080
 Flags: W
 HStem: -410 81<370.093 763.293> 0 162<324.529 787.826> 360 61<438.202 634.1> 824 76<828 976> 858 64<391.115 607.671>
@@ -36352,12 +35187,12 @@ VStem: 84 166<-238.036 -31.2168> 128 144<150.468 319.568> 140 196<508.935 803.89
 LayerCount: 2
 Fore
 Refer: 505 710 S 1 0 0 1 163 31 2
-Refer: 1097 57477 N 1 0 0 1 0 0 2
+Refer: 1009 57477 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
 StartChar: gbreve.ss05
-Encoding: 57479 57479 1099
+Encoding: 57479 57479 1011
 Width: 1080
 Flags: W
 HStem: -410 81<370.093 763.293> 0 162<324.529 787.826> 360 61<438.202 634.1> 824 76<828 976> 858 64<391.115 607.671>
@@ -36365,12 +35200,12 @@ VStem: 84 166<-238.036 -31.2168> 128 144<150.468 319.568> 140 196<508.935 803.89
 LayerCount: 2
 Fore
 Refer: 523 728 N 1 0 0 1 172 31 2
-Refer: 1097 57477 N 1 0 0 1 0 0 2
+Refer: 1009 57477 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
 StartChar: gdotaccent.ss05
-Encoding: 57480 57480 1100
+Encoding: 57480 57480 1012
 Width: 1080
 Flags: W
 HStem: -410 81<370.093 763.293> 0 162<324.529 787.826> 360 61<438.202 634.1> 824 76<828 976> 858 64<391.115 607.671>
@@ -36378,12 +35213,12 @@ VStem: 84 166<-238.036 -31.2168> 128 144<150.468 319.568> 140 196<508.935 803.89
 LayerCount: 2
 Fore
 Refer: 524 729 S 1 0 0 1 300 31 2
-Refer: 1097 57477 N 1 0 0 1 0 0 2
+Refer: 1009 57477 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
 StartChar: gcommaaccent.ss05
-Encoding: 57481 57481 1101
+Encoding: 57481 57481 1013
 Width: 1080
 Flags: W
 HStem: -410 81<370.093 763.293> 0 162<324.529 787.826> 360 61<438.202 634.1> 824 76<828 976> 858 64<391.115 607.671>
@@ -36391,12 +35226,12 @@ VStem: 84 166<-238.036 -31.2168> 128 144<150.468 319.568> 140 196<508.935 803.89
 LayerCount: 2
 Fore
 Refer: 494 699 N 1 0 0 1 283 117 2
-Refer: 1097 57477 N 1 0 0 1 0 0 2
+Refer: 1009 57477 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
 StartChar: uniE08A
-Encoding: 57482 57482 1102
+Encoding: 57482 57482 1014
 Width: 1304
 Flags: W
 HStem: -410 62<781.578 957.349> -388 191<619.291 737.693> 0 43<86 197.923 302.077 414> 1155 43<86 197.923 909 1020.92 1125.08 1237>
@@ -36475,7 +35310,7 @@ Validated: 1
 EndChar
 
 StartChar: Thook.ss06
-Encoding: 57483 57483 1103
+Encoding: 57483 57483 1015
 Width: 1196
 Flags: W
 LayerCount: 2
@@ -36511,7 +35346,7 @@ Validated: 1
 EndChar
 
 StartChar: Ezh.ss07
-Encoding: 57484 57484 1104
+Encoding: 57484 57484 1016
 Width: 962
 Flags: W
 HStem: 0 119<147.971 731> 1137 61<192.454 638>
@@ -36539,7 +35374,7 @@ Validated: 1
 EndChar
 
 StartChar: Ztophook
-Encoding: 57485 57485 1105
+Encoding: 57485 57485 1017
 Width: 1173
 Flags: W
 LayerCount: 2
@@ -36574,7 +35409,7 @@ Validated: 1
 EndChar
 
 StartChar: ztophook
-Encoding: 57486 57486 1106
+Encoding: 57486 57486 1018
 Width: 1090
 Flags: W
 LayerCount: 2
@@ -36609,7 +35444,7 @@ Validated: 1
 EndChar
 
 StartChar: uni01EE
-Encoding: 494 494 1107
+Encoding: 494 494 1019
 Width: 999
 VWidth: 0
 LayerCount: 2
@@ -36620,7 +35455,7 @@ Validated: 1
 EndChar
 
 StartChar: uni01EF
-Encoding: 495 495 1108
+Encoding: 495 495 1020
 Width: 878
 VWidth: 0
 LayerCount: 2
@@ -36631,7 +35466,7 @@ Validated: 1
 EndChar
 
 StartChar: uni01E8
-Encoding: 488 488 1109
+Encoding: 488 488 1021
 Width: 1185
 VWidth: 0
 LayerCount: 2
@@ -36642,7 +35477,7 @@ Validated: 1
 EndChar
 
 StartChar: uni01E9
-Encoding: 489 489 1110
+Encoding: 489 489 1022
 Width: 1026
 VWidth: 0
 LayerCount: 2
@@ -36653,7 +35488,7 @@ Validated: 1
 EndChar
 
 StartChar: Gbar
-Encoding: 484 484 1111
+Encoding: 484 484 1023
 Width: 1263
 UnlinkRmOvrlpSave: 1
 Flags: W
@@ -36661,17 +35496,17 @@ HStem: 285 70<706 1232>
 LayerCount: 2
 Fore
 SplineSet
-706 285 m 1,0,-1
- 706 355 l 1,1,-1
- 1232 355 l 1,2,-1
- 1232 285 l 1,3,-1
- 706 285 l 1,0,-1
+706 285 m 1
+ 706 355 l 1
+ 1232 355 l 1
+ 1232 285 l 1
+ 706 285 l 1
 EndSplineSet
 Refer: 40 71 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: gbar
-Encoding: 485 485 1112
+Encoding: 485 485 1024
 Width: 1064
 UnlinkRmOvrlpSave: 1
 Flags: W
@@ -36679,17 +35514,17 @@ HStem: 419 70<494 1020>
 LayerCount: 2
 Fore
 SplineSet
-494 419 m 1,0,-1
- 494 489 l 1,1,-1
- 1020 489 l 1,2,-1
- 1020 419 l 1,3,-1
- 494 419 l 1,0,-1
+494 419 m 1
+ 494 489 l 1
+ 1020 489 l 1
+ 1020 419 l 1
+ 494 419 l 1
 EndSplineSet
 Refer: 72 103 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Eth.ss09
-Encoding: 57487 57487 1113
+Encoding: 57487 57487 1025
 Width: 1321
 UnlinkRmOvrlpSave: 1
 Flags: W
@@ -36697,40 +35532,40 @@ HStem: 585 91<63 1277>
 LayerCount: 2
 Fore
 SplineSet
-63 585 m 1,0,-1
- 63 676 l 1,1,-1
- 1277 676 l 1,2,-1
- 1277 585 l 1,3,-1
- 63 585 l 1,0,-1
+63 585 m 1
+ 63 676 l 1
+ 1277 676 l 1
+ 1277 585 l 1
+ 63 585 l 1
 EndSplineSet
 Refer: 37 68 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: eth.ss09
-Encoding: 57488 57488 1114
+Encoding: 57488 57488 1026
 Width: 1169
 UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-35 418 m 1,0,-1
- 35 509 l 1,1,-1
- 1134 509 l 1,2,-1
- 1134 418 l 1,3,-1
- 35 418 l 1,0,-1
+35 418 m 1
+ 35 509 l 1
+ 1134 509 l 1
+ 1134 418 l 1
+ 35 418 l 1
 EndSplineSet
 Refer: 69 100 N 1 0 0 1 55 0 2
 EndChar
 
 StartChar: gcaron.ss05
-Encoding: 57489 57489 1115
+Encoding: 57489 57489 1027
 Width: 1080
 Flags: W
 LayerCount: 2
 Fore
 Refer: 506 711 S 1 0 0 1 163 31 2
-Refer: 1097 57477 N 1 0 0 1 0 0 2
+Refer: 1009 57477 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 EndChars
